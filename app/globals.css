@@ -1,26 +1,70 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  /* Base Colors */
+  --background: #F9F8F6; /* Off-white / Ivory */
+  --foreground: #2D2D2D; /* Deep Charcoal */
+
+  /* Palette */
+  --color-ivory: #F9F8F6;
+  --color-stone: #E6E2DD; /* Natural Stone Beige */
+  --color-charcoal: #2D2D2D; /* Deep Charcoal Text */
+  --color-teak: #4A3B32; /* Dark Teak/Walnut */
+  --color-leaf: #5F7161; /* Soft Tropical Green */
+  --color-gold: #C5A085; /* Minimal Bronze/Gold */
+
+  /* Font Families (will be linked in layout) */
+  --font-serif: "Playfair Display", serif;
+  --font-sans: "Lato", sans-serif;
 }
 
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
+  
+  --color-ivory: var(--color-ivory);
+  --color-stone: var(--color-stone);
+  --color-charcoal: var(--color-charcoal);
+  --color-teak: var(--color-teak);
+  --color-leaf: var(--color-leaf);
+  --color-gold: var(--color-gold);
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+  --font-serif: var(--font-serif);
+  --font-sans: var(--font-sans);
+  
+  /* Animation variables if needed, usually Tailwind defaults are fine but we can extend */
 }
 
 body {
-  background: var(--background);
+  background-color: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-sans);
+  overflow-x: hidden; /* Prevent horizontal scroll */
+}
+
+/* Custom Scrollbar for Webkit */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: var(--color-ivory); 
+}
+::-webkit-scrollbar-thumb {
+  background: var(--color-stone); 
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color-teak); 
+}
+
+/* Utility classes for specific needs */
+.glass-panel {
+  background: rgba(255, 255, 255, 0.7);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.text-balance {
+  text-wrap: balance;
 }
