@@ -8,7 +8,7 @@ export function Footer() {
             <Container className="grid grid-cols-1 md:grid-cols-4 gap-12">
                 <div className="col-span-1 md:col-span-2">
                     <h2 className="font-serif text-2xl font-bold uppercase tracking-widest mb-6">
-                        Villa Marbella
+                        Villa Marbella Bliss
                     </h2>
                     <p className="text-white/60 max-w-sm mb-6 font-light">
                         A luxury private sanctuary in Sri Lanka, designed for those who seek
@@ -30,20 +30,20 @@ export function Footer() {
                 <div>
                     <h3 className="font-serif text-lg mb-6 text-gold">Explore</h3>
                     <ul className="space-y-4 text-white/70 font-light">
-                        <li><Link href="#about" className="hover:text-white transition-colors">About</Link></li>
-                        <li><Link href="#living" className="hover:text-white transition-colors">Living Spaces</Link></li>
-                        <li><Link href="#amenities" className="hover:text-white transition-colors">Amenities</Link></li>
-                        <li><Link href="#gallery" className="hover:text-white transition-colors">Gallery</Link></li>
-                        <li><Link href="#location" className="hover:text-white transition-colors">Location</Link></li>
+                        <li><Link href="/about" className="hover:text-white transition-colors">About</Link></li>
+                        <li><Link href="/stay" className="hover:text-white transition-colors">Stay</Link></li>
+                        <li><Link href="/gallery" className="hover:text-white transition-colors">Gallery</Link></li>
+                        <li><Link href="/attractions" className="hover:text-white transition-colors">Attractions</Link></li>
+                        <li><Link href="/contact" className="hover:text-white transition-colors">Contact</Link></li>
                     </ul>
                 </div>
 
                 <div>
                     <h3 className="font-serif text-lg mb-6 text-gold">Contact</h3>
                     <ul className="space-y-4 text-white/70 font-light">
-                        <li>info@villamarbella.com</li>
-                        <li>+94 77 123 4567</li>
-                        <li>Dikwella Road, Southern Province<br />Sri Lanka</li>
+                        <li>marbellabliss12@gmail.com</li>
+                        <li>+94 70 300 2912</li>
+                        <li>No: 12, Medaketiya road, Tangalle<br />Sri Lanka</li>
                     </ul>
                 </div>
             </Container>

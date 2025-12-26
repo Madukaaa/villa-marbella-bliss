@@ -10,7 +10,7 @@ import { cn } from "@/lib/utils";
 
 const navLinks = [
     { href: "/about", label: "About" },
-    { href: "/accommodation", label: "Accommodation" },
+    { href: "/stay", label: "Stay" },
     { href: "/gallery", label: "Gallery" },
     { href: "/attractions", label: "Attractions" },
 ];
@@ -53,18 +53,23 @@ export function Header() {
 
                 {/* Desktop Nav */}
                 <nav className="hidden md:flex items-center gap-8">
-                    {navLinks.map((link) => (
-                        <Link
-                            key={link.label}
-                            href={link.href}
-                            className={cn(
-                                "text-sm uppercase tracking-wider font-medium transition-colors hover:text-gold",
-                                shouldShowHeader ? "text-charcoal" : "text-white/90"
-                            )}
-                        >
-                            {link.label}
-                        </Link>
-                    ))}
+                    {navLinks.map((link) => {
+                        const isActive = pathname === link.href;
+                        return (
+                            <Link
+                                key={link.label}
+                                href={link.href}
+                                className={cn(
+                                    "text-sm uppercase tracking-wider font-semibold transition-colors hover:text-gold",
+                                    isActive 
+                                        ? "text-gold font-semibold" 
+                                        : shouldShowHeader ? "text-charcoal" : "text-white/90"
+                                )}
+                            >
+                                {link.label}
+                            </Link>
+                        );
+                    })}
                     <Link href="/contact">
                         <Button variant={shouldShowHeader ? "default" : "glass"} size="sm">
                             Contact Us
@@ -87,16 +92,22 @@ export function Header() {
                 {/* Mobile Nav Overlay */}
                 {isMobileMenuOpen && (
                     <div className="fixed inset-0 bg-ivory z-40 flex flex-col items-center justify-center gap-8 md:hidden">
-                        {navLinks.map((link) => (
-                            <Link
-                                key={link.label}
-                                href={link.href}
-                                onClick={() => setIsMobileMenuOpen(false)}
-                                className="text-2xl font-serif text-teak"
-                            >
-                                {link.label}
-                            </Link>
-                        ))}
+                        {navLinks.map((link) => {
+                            const isActive = pathname === link.href;
+                            return (
+                                <Link
+                                    key={link.label}
+                                    href={link.href}
+                                    onClick={() => setIsMobileMenuOpen(false)}
+                                    className={cn(
+                                        "text-2xl font-serif transition-colors",
+                                        isActive ? "text-gold font-semibold" : "text-teak"
+                                    )}
+                                >
+                                    {link.label}
+                                </Link>
+                            );
+                        })}
                         <Link href="/contact" onClick={() => setIsMobileMenuOpen(false)}>
                             <Button variant="default" className="mt-4">
                                 Contact Us

@@ -1,10 +1,10 @@
 import { Showcase } from "@/components/sections/Showcase";
 import { Amenities } from "@/components/sections/Amenities";
-import { Gallery } from "@/components/sections/Gallery";
 import { BookingCTA } from "@/components/sections/BookingCTA";
+import { Villas } from "@/components/sections/Villas";
 import { Container } from "@/components/ui/Container";
 
-export default function AccommodationPage() {
+export default function StayPage() {
   return (
     <main className="flex min-h-screen flex-col">
       {/* Hero Section */}
@@ -21,7 +21,7 @@ export default function AccommodationPage() {
           </span>
           <h1 className="font-serif text-5xl md:text-7xl font-normal mb-6">
             Luxury <br />
-            <span className="italic text-gold">Accommodation</span>
+            <span className="italic text-gold">Stay</span>
           </h1>
           <p className="text-xl text-ivory/80 max-w-2xl mx-auto font-light">
             Elegantly designed spaces that blend comfort with tropical beauty
@@ -30,9 +30,7 @@ export default function AccommodationPage() {
       </section>
 
       {/* Content Sections */}
-      <Showcase />
-      <Amenities />
-      <Gallery />
+      <Villas />
       <BookingCTA />
     </main>
   );

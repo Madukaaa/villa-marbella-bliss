@@ -7,7 +7,7 @@ import { useState } from "react";
 
 const navLinks = [
     { href: "/about", label: "About Us" },
-    { href: "/accommodation", label: "Accommodation" },
+    { href: "/stay", label: "Stay" },
     { href: "/gallery", label: "Gallery" },
     { href: "/attractions", label: "Attractions" },
 ];
@@ -69,7 +69,7 @@ export function Hero() {
                 <div
                     className="absolute inset-0 bg-cover bg-center opacity-90 transition-transform duration-1000 hover:scale-105"
                     style={{
-                        backgroundImage: "url('https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?q=80&w=2070&auto=format&fit=crop')",
+                        backgroundImage:"url('/images/home/villa.jpg')",
                     }}
                 />
                 <div className="absolute inset-0 bg-gradient-to-b from-transparent to-black/20" />
@@ -102,8 +102,8 @@ export function Hero() {
                     <span className="mb-6 block text-xs font-bold uppercase tracking-[0.2em] text-teak/60">
                         Experience The Collection
                     </span>
-                    <h2 className="mb-8 font-serif text-5xl font-normal leading-tight text-charcoal lg:text-6xl">
-                        About <br /> <span className="italic text-teak">Villa Marbella Bliss</span>
+                    <h2 className="mb-8 font-Cinzel,serif text-5xl font-normal leading-tight text-charcoal lg:text-6xl">
+                        About <br /> <span className="text-teak">Villa Marbella Bliss</span>
                     </h2>
 
                     <div className="space-y-6 text-base font-light leading-relaxed text-charcoal/70">
