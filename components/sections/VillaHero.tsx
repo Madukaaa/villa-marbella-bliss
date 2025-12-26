@@ -30,7 +30,7 @@ export function VillaHero({
 
           {/* Content */}
           <div className="max-w-5xl">
-            <span className="mb-4 block text-sm font-medium uppercase tracking-widest text-charcoal/60">
+            <span className="mb-4 block text-sm font-semibold uppercase tracking-widest text-charcoal/60">
               {subtitle}
             </span>
             <h1 className="font-serif text-5xl md:text-5xl font-normal mb-8 text-charcoal">
@@ -51,7 +51,7 @@ export function VillaHero({
             {/* Details Grid */}
             <div className="grid grid-cols-2 md:grid-cols-4 gap-8 pt-8 border-t border-charcoal/20">
               <div>
-                <p className="text-xs uppercase tracking-wider text-charcoal/50 mb-2">
+                <p className="text-xs font-semibold uppercase tracking-wider text-charcoal/50 mb-2">
                   Check In
                 </p>
                 <p className="font-serif text-2xl text-charcoal">
@@ -59,7 +59,7 @@ export function VillaHero({
                 </p>
               </div>
               <div>
-                <p className="text-xs uppercase tracking-wider text-charcoal/50 mb-2">
+                <p className="text-xs font-semibold uppercase tracking-wider text-charcoal/50 mb-2">
                   Check Out
                 </p>
                 <p className="font-serif text-2xl text-charcoal">
@@ -67,7 +67,7 @@ export function VillaHero({
                 </p>
               </div>
               <div>
-                <p className="text-xs uppercase tracking-wider text-charcoal/50 mb-2">
+                <p className="text-xs font-semibold uppercase tracking-wider text-charcoal/50 mb-2">
                   Size
                 </p>
                 <p className="font-serif text-2xl text-charcoal">
@@ -75,7 +75,7 @@ export function VillaHero({
                 </p>
               </div>
               <div>
-                <p className="text-xs uppercase tracking-wider text-charcoal/50 mb-2">
+                <p className="text-xs font-semibold uppercase tracking-wider text-charcoal/50 mb-2">
                   Occupancy
                 </p>
                 <p className="font-serif text-2xl text-charcoal">

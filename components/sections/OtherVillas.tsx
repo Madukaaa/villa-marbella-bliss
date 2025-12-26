@@ -49,7 +49,7 @@ export function OtherVillas({ currentVillaId }: OtherVillasProps) {
             </h2>
             <Link 
               href="/stay"
-              className="text-sm uppercase tracking-widest border-b-2 border-charcoal pb-1 hover:border-gold hover:text-gold transition-colors"
+              className="text-sm font-semibold uppercase tracking-widest border-b-2 border-charcoal pb-1 hover:border-gold hover:text-gold transition-colors"
             >
               View All Villas
             </Link>
@@ -82,7 +82,7 @@ export function OtherVillas({ currentVillaId }: OtherVillasProps) {
                   <div className="pt-2">
                     <Link 
                       href={villa.link}
-                      className="text-sm uppercase tracking-widest border-b-2 border-charcoal pb-1 hover:border-gold hover:text-gold transition-colors inline-block"
+                      className="text-sm font-semibold uppercase tracking-widest border-b-2 border-charcoal pb-1 hover:border-gold hover:text-gold transition-colors inline-block"
                     >
                       Find Out More
                     </Link>

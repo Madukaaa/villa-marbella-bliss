@@ -16,7 +16,7 @@ export default function StayPage() {
           }}
         />
         <Container className="relative z-10 text-center">
-          <span className="mb-4 block text-sm font-medium uppercase tracking-widest text-gold">
+          <span className="mb-4 block text-sm font-semibold uppercase tracking-widest text-gold">
             Your Private Retreat
           </span>
           <h1 className="font-serif text-5xl md:text-7xl font-normal mb-6">

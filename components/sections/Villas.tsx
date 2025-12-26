@@ -33,7 +33,7 @@ export function Villas() {
           {/* Vertical Line */}
           <div className="absolute left-10 top-0 bottom-0 w-[2px] bg-charcoal/70" />
           
-          <span className="mb-4 block text-sm font-medium uppercase tracking-widest text-charcoal/60">
+          <span className="mb-4 block text-sm font-semibold uppercase tracking-widest text-charcoal/60">
             Stay at a Private Pool Villa in Marbella
           </span>
           <h2 className="font-serif text-4xl md:text-5xl font-normal mb-6 text-charcoal">
@@ -73,7 +73,7 @@ export function Villas() {
                 {/* Details */}
                 <div className="flex gap-12 pt-2">
                   <div>
-                    <p className="text-xs uppercase tracking-wider text-charcoal/50 mb-1">
+                    <p className="text-xs font-semibold uppercase tracking-wider text-charcoal/50 mb-1">
                       Size
                     </p>
                     <p className="font-serif text-2xl text-charcoal">
@@ -81,7 +81,7 @@ export function Villas() {
                     </p>
                   </div>
                   <div>
-                    <p className="text-xs uppercase tracking-wider text-charcoal/50 mb-1">
+                    <p className="text-xs font-semibold uppercase tracking-wider text-charcoal/50 mb-1">
                       Occupancy
                     </p>
                     <p className="font-serif text-2xl text-charcoal">
@@ -94,7 +94,7 @@ export function Villas() {
                 <div className="pt-4">
                   <Link 
                     href={villa.link}
-                    className="text-sm uppercase tracking-widest border-b-2 border-charcoal pb-1 hover:border-gold hover:text-gold transition-colors inline-block"
+                    className="text-sm font-semibold uppercase tracking-widest border-b-2 border-charcoal pb-1 hover:border-gold hover:text-gold transition-colors inline-block"
                   >
                     Find Out More
                   </Link>

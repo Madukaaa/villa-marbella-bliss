@@ -27,7 +27,7 @@ export function Amenities() {
         <Section className="bg-ivory" id="amenities">
             <Container>
                 <div className="mb-16 flex flex-col items-center text-center">
-                    <span className="mb-3 block text-sm font-medium uppercase tracking-widest text-teak/80">
+                    <span className="mb-3 block text-sm font-semibold uppercase tracking-widest text-teak/80">
                         Amenities
                     </span>
                     <h2 className="font-serif text-4xl text-charcoal md:text-5xl">

@@ -17,7 +17,7 @@ export default function ContactPage() {
           }}
         />
         <Container className="relative z-10 text-center">
-          <span className="mb-4 block text-sm font-medium uppercase tracking-widest text-gold">
+          <span className="mb-4 block text-sm font-semibold uppercase tracking-widest text-gold">
             Get In Touch
           </span>
           <h1 className="font-serif text-5xl md:text-7xl font-normal mb-6">
@@ -40,40 +40,40 @@ export default function ContactPage() {
             </h2>
             <form className="space-y-6">
               <div>
-                <label htmlFor="name" className="block text-sm font-medium text-charcoal mb-2 uppercase tracking-wider">
+                <label htmlFor="name" className="block text-sm font-semibold text-charcoal mb-2 uppercase tracking-wider">
                   Your Name
                 </label>
                 <input
                   type="text"
                   id="name"
                   className="w-full px-4 py-3 bg-white border border-stone/30 rounded-sm focus:outline-none focus:border-teak transition-colors"
-                  placeholder="John Doe"
+                  placeholder="Your name"
                 />
               </div>
               <div>
-                <label htmlFor="email" className="block text-sm font-medium text-charcoal mb-2 uppercase tracking-wider">
+                <label htmlFor="email" className="block text-sm font-semibold text-charcoal mb-2 uppercase tracking-wider">
                   Email Address
                 </label>
                 <input
                   type="email"
                   id="email"
                   className="w-full px-4 py-3 bg-white border border-stone/30 rounded-sm focus:outline-none focus:border-teak transition-colors"
-                  placeholder="john@example.com"
+                  placeholder="@example.com"
                 />
               </div>
               <div>
-                <label htmlFor="phone" className="block text-sm font-medium text-charcoal mb-2 uppercase tracking-wider">
+                <label htmlFor="phone" className="block text-sm font-semibold text-charcoal mb-2 uppercase tracking-wider">
                   Phone Number
                 </label>
                 <input
                   type="tel"
                   id="phone"
                   className="w-full px-4 py-3 bg-white border border-stone/30 rounded-sm focus:outline-none focus:border-teak transition-colors"
-                  placeholder="+1 234 567 8900"
+                  placeholder="+xx xx xxx xxxx"
                 />
               </div>
               <div>
-                <label htmlFor="message" className="block text-sm font-medium text-charcoal mb-2 uppercase tracking-wider">
+                <label htmlFor="message" className="block text-sm font-semibold text-charcoal mb-2 uppercase tracking-wider">
                   Your Message
                 </label>
                 <textarea
@@ -106,9 +106,9 @@ export default function ContactPage() {
                   <Mail size={20} />
                 </div>
                 <div>
-                  <h4 className="text-sm font-medium uppercase tracking-wider text-charcoal mb-1">Email</h4>
+                  <h4 className="text-sm font-semibold uppercase tracking-wider text-charcoal mb-1">Email</h4>
                   <a href="mailto:info@villamarbelabliss.com" className="text-lg text-teak hover:text-leaf transition-colors">
-                    info@villamarbelabliss.com
+                    marbellabliss12@gmail.com
                   </a>
                 </div>
               </div>
@@ -118,9 +118,9 @@ export default function ContactPage() {
                   <Phone size={20} />
                 </div>
                 <div>
-                  <h4 className="text-sm font-medium uppercase tracking-wider text-charcoal mb-1">Phone</h4>
+                  <h4 className="text-sm font-semibold uppercase tracking-wider text-charcoal mb-1">Phone</h4>
                   <a href="tel:+94123456789" className="text-lg text-teak hover:text-leaf transition-colors">
-                    +94 123 456 789
+                    +94 70 300 2912
                   </a>
                 </div>
               </div>
@@ -130,20 +130,14 @@ export default function ContactPage() {
                   <MapPin size={20} />
                 </div>
                 <div>
-                  <h4 className="text-sm font-medium uppercase tracking-wider text-charcoal mb-1">Location</h4>
+                  <h4 className="text-sm font-semibold uppercase tracking-wider text-charcoal mb-1">Location</h4>
                   <p className="text-lg text-charcoal/70">
-                    Dikwella, Southern Province<br />
-                    Sri Lanka
+                     No: 12, Medaketiya Road,<br />
+                  Tangalle,<br />
+                  Sri Lanka
                   </p>
                 </div>
               </div>
-            </div>
-
-            <div className="pt-8 border-t border-stone/20">
-              <h4 className="text-sm font-medium uppercase tracking-wider text-charcoal mb-3">Office Hours</h4>
-              <p className="text-charcoal/70">
-                Monday - Sunday: 8:00 AM - 8:00 PM (UTC+5:30)
-              </p>
             </div>
           </div>
         </Container>
