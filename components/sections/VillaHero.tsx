@@ -26,7 +26,8 @@ export function VillaHero({
       <Container className="px-8 md:px-16 lg:px-24">
         <div className="relative pl-40 pr-10">
           {/* Vertical Line */}
-          <div className="absolute left-10 top-0 bottom-0 w-[2px] bg-charcoal/70" />
+          <div className="absolute left-10 top-0 bottom-0 w-[2px] top-0 h-1/2 bg-charcoal/50" />
+          <div className="absolute left-10 top-0 bottom-0 w-[2px] top-1/2 h-1/2 bg-charcoal/20" />
 
           {/* Content */}
           <div className="max-w-5xl">

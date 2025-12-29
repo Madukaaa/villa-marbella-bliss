@@ -1,0 +1,65 @@
+import Link from "next/link";
+import { Container } from "@/components/ui/Container";
+import { Section } from "@/components/ui/Section";
+import { Attraction } from "@/lib/attractions-data";
+
+interface RelatedAttractionsProps {
+  attractions: Attraction[];
+}
+
+export function RelatedAttractions({ attractions }: RelatedAttractionsProps) {
+  return (
+    <Section className="bg-white pl-40 pr-10">
+      <Container>
+        {/* Header */}
+        <div className="mb-12 flex items-center justify-between">
+          <h2 className="font-serif text-3xl md:text-4xl font-normal text-charcoal uppercase tracking-wider">
+            Reveal the Collection Experiences
+          </h2>
+          <Link 
+            href="/attractions" 
+            className="text-sm font-semibold uppercase tracking-widest text-charcoal hover:text-gold transition-colors border-b-2 border-charcoal hover:border-gold pb-1"
+          >
+            View All Experiences
+          </Link>
+        </div>
+
+        {/* Attractions Grid */}
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+          {attractions.map((attraction, index) => (
+            <div key={index} className="group">
+              {/* Image Container */}
+              <Link href={`/attractions/${attraction.slug}`}>
+                <div className="relative h-[400px] overflow-hidden mb-6">
+                  <img
+                    src={attraction.image}
+                    alt={attraction.title}
+                    className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
+                  />
+                  {/* Title Overlay */}
+                  <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent flex items-end">
+                    <h3 className="text-white font-serif text-2xl p-6">
+                      {attraction.title}
+                    </h3>
+                  </div>
+                </div>
+              </Link>
+
+              {/* Description */}
+              <p className="text-charcoal/80 mb-4 leading-relaxed">
+                {attraction.description}
+              </p>
+
+              {/* CTA Link */}
+              <Link href={`/attractions/${attraction.slug}`}>
+                <button className="text-charcoal font-semibold text-sm uppercase tracking-wider border-b-2 border-charcoal pb-1 hover:text-gold hover:border-gold transition-colors">
+                  Find Out More
+                </button>
+              </Link>
+            </div>
+          ))}
+        </div>
+      </Container>
+    </Section>
+  );
+}

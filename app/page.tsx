@@ -14,7 +14,6 @@ export default function Home() {
       <Showcase />
       <Amenities />
       <Gallery />
-      <Location />
       <BookingCTA />
     </main>
   );

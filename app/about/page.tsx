@@ -32,7 +32,6 @@ export default function AboutPage() {
       {/* Content Sections */}
       <About />
       <Showcase />
-      <Location />
       <BookingCTA />
     </main>
   );

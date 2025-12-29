@@ -1,6 +1,7 @@
 import { Location } from "@/components/sections/Location";
 import { About } from "@/components/sections/About";
 import { BookingCTA } from "@/components/sections/BookingCTA";
+import { Attractions } from "@/components/sections/Attractions";
 import { Container } from "@/components/ui/Container";
 
 export default function AttractionsPage() {
@@ -29,8 +30,7 @@ export default function AttractionsPage() {
       </section>
 
       {/* Content Sections */}
-      <Location />
-      <About />
+      <Attractions />
       <BookingCTA />
     </main>
   );
