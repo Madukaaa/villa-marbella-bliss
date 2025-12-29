@@ -52,7 +52,7 @@ export function Attractions() {
 
               {/* CTA Link */}
               <Link href={`/attractions/${attraction.slug}`}>
-                <button className="text-charcoal font-semibold text-sm uppercase tracking-wider border-b-2 border-charcoal pb-1 hover:text-gold hover:border-gold transition-colors">
+                <button className="text-charcoal font-semibold text-sm uppercase tracking-wider border-b-2 border-charcoal pb-1 hover:text-gold hover:border-gold transition-colors cursor-pointer">
                   Find Out More
                 </button>
               </Link>

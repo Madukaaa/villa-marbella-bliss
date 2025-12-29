@@ -53,7 +53,7 @@ export function AttractionInfo({ title, subtitle, longDescription, image }: Attr
               <p className="text-charcoal/70 text-lg mb-6 uppercase tracking-wider">
                 114km 2hr Ride
               </p>
-              <button className="text-charcoal font-semibold text-sm uppercase tracking-wider border-b-2 border-charcoal pb-1 hover:text-gold hover:border-gold transition-colors w-fit">
+              <button className="text-charcoal font-semibold text-sm uppercase tracking-wider border-b-2 border-charcoal pb-1 hover:text-gold hover:border-gold transition-colors w-fit cursor-pointer">
                 Get Directions
               </button>
             </div>
