@@ -30,8 +30,6 @@ export default function GalleryPage() {
 
       {/* Content Sections */}
       <Gallery />
-      <Showcase />
-      <BookingCTA />
     </main>
   );
 }
