@@ -107,7 +107,7 @@ export function Gallery() {
                             key={category}
                             onClick={() => setActiveCategory(category)}
                             className={cn(
-                                "px-6 py-2 text-sm uppercase tracking-wider transition-all duration-300",
+                                "px-6 py-2 text-sm uppercase tracking-wider transition-all duration-300 font-semibold",
                                 activeCategory === category
                                     ? "bg-charcoal text-white"
                                     : "bg-gray-100 text-charcoal/70 hover:bg-gray-200 hover:text-charcoal"
