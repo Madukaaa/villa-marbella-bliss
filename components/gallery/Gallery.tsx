@@ -130,11 +130,11 @@ export function Gallery() {
                     ))}
                 </div>
 
-                <div className="columns-1 gap-4 md:columns-2 lg:columns-3 space-y-4 pt-4 pl-10">
+                <div className="columns-1 gap-2 md:columns-2 lg:columns-3 space-y-2 pt-4 pl-10">
                     {filteredImages.map((image, idx) => (
                         <div 
                             key={idx} 
-                            className="break-inside-avoid overflow-hidden hover:opacity-90 transition-opacity cursor-pointer mb-4"
+                            className="break-inside-avoid overflow-hidden hover:opacity-90 transition-opacity cursor-pointer"
                             onClick={() => openLightbox(idx)}
                         >
                             <img
