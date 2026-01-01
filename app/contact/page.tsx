@@ -1,5 +1,5 @@
-import { BookingCTA } from "@/components/sections/BookingCTA";
-import { Location } from "@/components/sections/Location";
+import { BookingCTA } from "@/components/shared/BookingCTA";
+import { Location } from "@/components/shared/Location";
 import { Container } from "@/components/ui/Container";
 import { Section } from "@/components/ui/Section";
 import { Button } from "@/components/ui/Button";

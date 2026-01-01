@@ -1,7 +1,7 @@
-import { Location } from "@/components/sections/Location";
-import { About } from "@/components/sections/About";
-import { BookingCTA } from "@/components/sections/BookingCTA";
-import { Attractions } from "@/components/sections/Attractions";
+import { Location } from "@/components/shared/Location";
+import { About } from "@/components/about/About";
+import { BookingCTA } from "@/components/shared/BookingCTA";
+import { Attractions } from "@/components/attractions/Attractions";
 import { Container } from "@/components/ui/Container";
 
 export default function AttractionsPage() {

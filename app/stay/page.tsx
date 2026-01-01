@@ -1,7 +1,7 @@
-import { Showcase } from "@/components/sections/Showcase";
-import { Amenities } from "@/components/sections/Amenities";
-import { BookingCTA } from "@/components/sections/BookingCTA";
-import { Villas } from "@/components/sections/Villas";
+import { Showcase } from "@/components/shared/Showcase";
+import { Amenities } from "@/components/shared/Amenities";
+import { BookingCTA } from "@/components/shared/BookingCTA";
+import { Villas } from "@/components/villa/Villas";
 import { Container } from "@/components/ui/Container";
 
 export default function StayPage() {

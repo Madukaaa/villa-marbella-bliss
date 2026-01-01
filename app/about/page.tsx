@@ -1,7 +1,7 @@
-import { About } from "@/components/sections/About";
-import { Showcase } from "@/components/sections/Showcase";
-import { Location } from "@/components/sections/Location";
-import { BookingCTA } from "@/components/sections/BookingCTA";
+import { About } from "@/components/about/About";
+import { Showcase } from "@/components/shared/Showcase";
+import { Location } from "@/components/shared/Location";
+import { BookingCTA } from "@/components/shared/BookingCTA";
 import { Container } from "@/components/ui/Container";
 
 export default function AboutPage() {

@@ -1,6 +1,6 @@
-import { Gallery } from "@/components/sections/Gallery";
-import { Showcase } from "@/components/sections/Showcase";
-import { BookingCTA } from "@/components/sections/BookingCTA";
+import { Gallery } from "@/components/gallery/Gallery";
+import { Showcase } from "@/components/shared/Showcase";
+import { BookingCTA } from "@/components/shared/BookingCTA";
 import { Container } from "@/components/ui/Container";
 
 export default function GalleryPage() {

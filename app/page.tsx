@@ -1,10 +1,10 @@
-import { Hero } from "@/components/sections/Hero";
-import { About } from "@/components/sections/About";
-import { Showcase } from "@/components/sections/Showcase";
-import { Amenities } from "@/components/sections/Amenities";
-import { Gallery } from "@/components/sections/Gallery";
-import { Location } from "@/components/sections/Location";
-import { BookingCTA } from "@/components/sections/BookingCTA";
+import { Hero } from "@/components/home/Hero";
+import { About } from "@/components/about/About";
+import { Showcase } from "@/components/shared/Showcase";
+import { Amenities } from "@/components/shared/Amenities";
+import { Gallery } from "@/components/gallery/Gallery";
+import { Location } from "@/components/shared/Location";
+import { BookingCTA } from "@/components/shared/BookingCTA";
 
 export default function Home() {
   return (

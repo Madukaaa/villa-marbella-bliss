@@ -1,8 +1,8 @@
 import { notFound } from "next/navigation";
-import { AttractionHero } from "@/components/sections/AttractionHero";
-import { AttractionInfo } from "@/components/sections/AttractionInfo";
-import { RelatedAttractions } from "@/components/sections/RelatedAttractions";
-import { BookingCTA } from "@/components/sections/BookingCTA";
+import { AttractionHero } from "@/components/attractions/AttractionHero";
+import { AttractionInfo } from "@/components/attractions/AttractionInfo";
+import { RelatedAttractions } from "@/components/attractions/RelatedAttractions";
+import { BookingCTA } from "@/components/shared/BookingCTA";
 import { getAttractionBySlug, getRelatedAttractions, attractionsData } from "@/lib/attractions-data";
 
 interface AttractionPageProps {

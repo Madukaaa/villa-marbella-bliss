@@ -1,8 +1,8 @@
-import { VillaHero } from "@/components/sections/VillaHero";
-import { VillaGallery } from "@/components/sections/VillaGallery";
-import { BookingCTA } from "@/components/sections/BookingCTA";
-import { Amenities } from "@/components/sections/Amenities";
-import { OtherVillas } from "@/components/sections/OtherVillas";
+import { VillaHero } from "@/components/villa/VillaHero";
+import { VillaGallery } from "@/components/villa/VillaGallery";
+import { BookingCTA } from "@/components/shared/BookingCTA";
+import { Amenities } from "@/components/shared/Amenities";
+import { OtherVillas } from "@/components/villa/OtherVillas";
 
 export default function FirstFloorVillaPage() {
   const villaImages = [
