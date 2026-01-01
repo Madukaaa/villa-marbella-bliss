@@ -165,18 +165,18 @@ export function HomeGallerySection() {
 
             {/* Navigation Arrows */}
             <button
-                className="absolute left-4 md:left-8 top-1/2 -translate-y-1/2 z-20 w-12 h-12 md:w-16 md:h-16 flex items-center justify-center rounded-full bg-white/5 backdrop-blur-md text-white hover:bg-white/10 hover:scale-105 transition-all duration-300 border border-white/10 group"
+                className="absolute left-4 md:left-8 top-1/2 -translate-y-1/2 z-20 p-2 flex items-center justify-center text-white hover:text-gold transition-colors duration-300 group"
                 onClick={() => paginate(-1)}
                 aria-label="Previous category"
             >
-                <ChevronLeft className="w-6 h-6 md:w-8 md:h-8 group-hover:-translate-x-0.5 transition-transform" />
+                <ChevronLeft className="w-8 h-8 md:w-10 md:h-10 group-hover:-translate-x-1 transition-transform" />
             </button>
             <button
-                className="absolute right-4 md:right-8 top-1/2 -translate-y-1/2 z-20 w-12 h-12 md:w-16 md:h-16 flex items-center justify-center rounded-full bg-white/5 backdrop-blur-md text-white hover:bg-white/10 hover:scale-105 transition-all duration-300 border border-white/10 group"
+                className="absolute right-4 md:right-8 top-1/2 -translate-y-1/2 z-20 p-2 flex items-center justify-center text-white hover:text-gold transition-colors duration-300 group"
                 onClick={() => paginate(1)}
                 aria-label="Next category"
             >
-                <ChevronRight className="w-6 h-6 md:w-8 md:h-8 group-hover:translate-x-0.5 transition-transform" />
+                <ChevronRight className="w-8 h-8 md:w-10 md:h-10 group-hover:translate-x-1 transition-transform" />
             </button>
         </section>
     );
