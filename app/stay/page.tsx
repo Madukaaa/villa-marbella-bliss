@@ -1,6 +1,6 @@
 import { Showcase } from "@/components/shared/Showcase";
 import { Amenities } from "@/components/shared/Amenities";
-import { BookingCTA } from "@/components/shared/BookingCTA";
+
 import { Villas } from "@/components/villa/Villas";
 import { Container } from "@/components/ui/Container";
 
@@ -31,7 +31,7 @@ export default function StayPage() {
 
       {/* Content Sections */}
       <Villas />
-      <BookingCTA />
+
     </main>
   );
 }

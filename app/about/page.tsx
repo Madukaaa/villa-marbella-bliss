@@ -1,7 +1,7 @@
 import { About } from "@/components/about/About";
 import { Showcase } from "@/components/shared/Showcase";
 import { Location } from "@/components/shared/Location";
-import { BookingCTA } from "@/components/shared/BookingCTA";
+
 import { Container } from "@/components/ui/Container";
 
 export default function AboutPage() {
@@ -32,7 +32,7 @@ export default function AboutPage() {
       {/* Content Sections */}
       <About />
       <Showcase />
-      <BookingCTA />
+
     </main>
   );
 }

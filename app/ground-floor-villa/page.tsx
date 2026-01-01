@@ -1,6 +1,6 @@
 import { VillaHero } from "@/components/villa/VillaHero";
 import { VillaGallery } from "@/components/villa/VillaGallery";
-import { BookingCTA } from "@/components/shared/BookingCTA";
+
 import { Amenities } from "@/components/shared/Amenities";
 import { OtherVillas } from "@/components/villa/OtherVillas";
 
@@ -54,7 +54,7 @@ export default function GroundFloorVillaPage() {
         <VillaGallery images={villaImages} />
         <Amenities/>      
         <OtherVillas currentVillaId="ground-floor" />        
-        <BookingCTA />
+
     </main>
   );
 }

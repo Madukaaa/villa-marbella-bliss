@@ -1,4 +1,4 @@
-import { BookingCTA } from "@/components/shared/BookingCTA";
+
 import { Location } from "@/components/shared/Location";
 import { Container } from "@/components/ui/Container";
 import { Section } from "@/components/ui/Section";
@@ -147,7 +147,7 @@ export default function ContactPage() {
       <Location />
       
       {/* Booking CTA */}
-      <BookingCTA />
+
     </main>
   );
 }
