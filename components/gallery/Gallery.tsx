@@ -30,9 +30,21 @@ const images = [
         src: "https://images.unsplash.com/photo-1596394516093-501ba68a0ba6?q=80&w=2070&auto=format&fit=crop",
         category: "Dining"
     },
+    {
+        src: "https://images.unsplash.com/photo-1613490493576-7fde63acd811?q=80&w=2071&auto=format&fit=crop",
+        category: "Exterior"
+    },
+    {
+        src: "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?q=80&w=2070&auto=format&fit=crop",
+        category: "Exterior"
+    },
+    {
+        src: "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?q=80&w=2070&auto=format&fit=crop",
+        category: "Exterior"
+    },
 ];
 
-const categories = ["All", "Rooms", "Living Spaces", "Dining"];
+const categories = ["All", "Rooms", "Living Spaces", "Dining", "Exterior"];
 
 export function Gallery() {
     const [lightboxOpen, setLightboxOpen] = useState(false);
