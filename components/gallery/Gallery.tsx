@@ -175,7 +175,7 @@ export function Gallery() {
                         alt={`Gallery image ${currentImageIndex + 1}`}
                         className="w-full h-full object-contain"
                     />
-                     <div className="absolute bottom-4 left-1/2 -translate-x-1/2 text-white/80 text-sm tracking-widest uppercase bg-black/50 px-4 py-2 rounded-full">
+                     <div className="absolute bottom-4 left-1/2 -translate-x-1/2 text-white/80 text-sm tracking-widest uppercase bg-black/50 px-4 py-2 ">
                         {filteredImages[currentImageIndex].category}
                     </div>
                 </div>
