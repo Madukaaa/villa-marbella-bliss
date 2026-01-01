@@ -34,7 +34,7 @@ export function Hero() {
                 </div>
 
                 {/* Why Us List */}
-                <div className="hidden lg:block">
+                <div className="hidden lg:block mb-20">
                     <h3 className="mb-6 text-sm font-bold uppercase tracking-[0.2em] text-charcoal">
                         Why Villa Marbella
                     </h3>
@@ -52,15 +52,6 @@ export function Hero() {
                             <span className="text-xs text-charcoal/50">Excursions, yoga, and spa</span>
                         </li>
                     </ul>
-                </div>
-
-                {/* Badge */}
-                <div className="mt-12 flex items-center gap-3">
-                    <div className="flex h-16 w-16 items-center justify-center rounded-full bg-charcoal text-ivory shadow-xl">
-                        <div className="text-center text-[10px] uppercase leading-tight font-bold tracking-wider">
-                            Elite <br /> Haven
-                        </div>
-                    </div>
                 </div>
             </div>
 
@@ -113,12 +104,6 @@ export function Hero() {
                         <p>
                             Our villa offers privacy, space, peace, history, architecture and friendly staff. The villa represents a whole new Sri Lankan experience, fiercely proud of its raw authenticity.
                         </p>
-                    </div>
-
-                    <div className="mt-12">
-                        <Button variant="luxury" className="rounded-none px-8 py-6 text-xs uppercase tracking-widest">
-                            Discover More
-                        </Button>
                     </div>
                 </div>
             </div>
@@ -202,15 +187,6 @@ export function Hero() {
                                     </Link>
                                 </div>
                             </div>
-
-                            {/* Decorative Palm Leaf Pattern */}
-                            {/* <div className="absolute top-0 right-0 opacity-10">
-                                <svg width="400" height="600" viewBox="0 0 400 600" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M200 50C200 50 150 150 150 250C150 350 200 450 200 550" stroke="currentColor" strokeWidth="2" className="text-charcoal"/>
-                                    <path d="M200 100C200 100 250 150 280 200C310 250 300 300 280 350" stroke="currentColor" strokeWidth="1.5" className="text-charcoal"/>
-                                    <path d="M200 150C200 150 150 200 120 250C90 300 100 350 120 400" stroke="currentColor" strokeWidth="1.5" className="text-charcoal"/>
-                                </svg>
-                            </div> */}
                         </div>
                     </div>
                 </div>
