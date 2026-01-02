@@ -37,7 +37,7 @@ export function About() {
                 </div>
 
                 {/* Image Content */}
-                <div className="relative order-1 h-[400px] w-full overflow-hidden rounded-sm lg:order-2 lg:h-[600px]">
+                <div className="relative order-1 h-[400px] w-full overflow-hidden rounded-sm lg:order-2 lg:h-[560px]">
                     <Image
                         src="/images/home/about/about.jpg"
                         alt="Villa Marbella Bliss"
