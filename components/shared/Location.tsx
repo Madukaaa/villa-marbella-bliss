@@ -8,7 +8,7 @@ export function Location() {
         <Section className="bg-ivory" id="location">
             <Container className="grid gap-12 lg:grid-cols-2 lg:gap-20 items-center">
                 <div>
-                    <span className="mb-4 block text-sm font-medium uppercase tracking-widest text-teak/80">
+                    <span className="mb-4 block text-sm font-semibold uppercase tracking-widest text-teak/80">
                         The Location
                     </span>
                     <h2 className="mb-6 font-serif text-4xl font-normal leading-tight text-charcoal md:text-5xl">

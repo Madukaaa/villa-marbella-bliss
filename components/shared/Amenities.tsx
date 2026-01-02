@@ -2,19 +2,23 @@ import { Container } from "@/components/ui/Container";
 import { Section } from "@/components/ui/Section";
 import {
     Wifi,
-    Utensils,
-    Waves,
     Wind,
     Coffee,
     ShieldCheck,
     Sun,
-    Flower2
+    Flower2,
+    CarFront,
+    Bath,
+    Building2,
+    CigaretteOff
 } from "lucide-react";
 
 const amenities = [
-    { icon: Waves, title: "Infinity Pool", desc: "Overlooking the ocean" },
-    { icon: Utensils, title: "Private Chef", desc: "Curated local cuisine" },
-    { icon: Wifi, title: "High-Speed Wi-Fi", desc: "Stay connected" },
+    { icon: CarFront, title: "Free Parking", desc: "On-site parking" },
+    { icon: Bath, title: "Private Bathrooms", desc: "En-suite facilities" },
+    { icon: Building2, title: "Balcony", desc: "Private outdoor space" },
+    { icon: CigaretteOff, title: "Non-Smoking Rooms", desc: "Smoke-free environment" },
+    { icon: Wifi, title: "Free Wi-Fi", desc: "Stay connected" },
     { icon: Wind, title: "Air Conditioning", desc: "In all bedrooms" },
     { icon: Coffee, title: "Daily Breakfast", desc: "Fresh & tropical" },
     { icon: Flower2, title: "Tropical Gardens", desc: "Lush private grounds" },

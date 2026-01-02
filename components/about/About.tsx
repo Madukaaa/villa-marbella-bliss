@@ -8,29 +8,30 @@ export function About() {
             <Container className="grid gap-12 lg:grid-cols-2 lg:gap-20 items-center">
                 {/* Text Content */}
                 <div className="order-2 lg:order-1">
-                    <span className="mb-4 block text-sm font-medium uppercase tracking-widest text-teak/80">
+                    <span className="mb-4 block text-sm font-semibold uppercase tracking-widest text-teak/80">
                         The Concept
                     </span>
                     <h2 className="mb-6 font-serif text-4xl font-normal leading-tight text-charcoal md:text-5xl">
-                        A Sanctuary of <br />
-                        <span className="italic text-leaf">tropical minimalism.</span>
+                        An Elegant <br />
+                        <span className="italic text-leaf">coastal retreat.</span>
                     </h2>
                     <div className="space-y-6 text-lg font-light leading-relaxed text-charcoal/80">
                         <p>
-                            Nestled amongst swaying coconut palms and whispering sea breezes,
-                            Villa Marbella Bliss is more than just a place to stay—it is an
-                            experience of pure serenity.
+                            Villa Marbella Bliss is a thoughtfully designed private villa in Tangalle,
+                            offering garden views, peaceful surroundings, and a relaxed coastal
+                            atmosphere just moments from the beach.
                         </p>
                         <p>
-                            Designed with a deep respect for local architecture and modern
-                            elegance, the villa blurs the lines between indoor and outdoor
-                            living. Open spaces, natural stone, and warm timber create a
-                            grounded, earthy atmosphere that invites you to slow down.
+                            Each accommodation is fully air-conditioned and features a private
+                            bathroom, a comfortable seating area, and modern amenities including
+                            free WiFi, a flat-screen TV, and quality bed linen and towels for a
+                            seamless stay.
                         </p>
                         <p>
-                            Whether you are lounging by the infinity pool or enjoying a
-                            private chef-prepared meal under the stars, every moment is curated
-                            for your absolute comfort.
+                            With a fully equipped kitchen, dining area, terrace, and easy access to
+                            nearby attractions such as Tangalle Beach, Tangalle Lagoon, and
+                            Mulkirigala Rock Monastery, the villa is ideal for families and travelers
+                            seeking comfort, convenience, and authentic southern charm.
                         </p>
                     </div>
                 </div>
