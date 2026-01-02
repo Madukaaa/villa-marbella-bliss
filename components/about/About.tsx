@@ -38,11 +38,11 @@ export function About() {
 
                 {/* Image Content */}
                 <div className="relative order-1 h-[400px] w-full overflow-hidden rounded-sm lg:order-2 lg:h-[600px]">
-                    <div
-                        className="absolute inset-0 bg-cover bg-center"
-                        style={{
-                            backgroundImage: "url('https://images.unsplash.com/photo-1613545325278-f24b0cae1224?q=80&w=1770&auto=format&fit=crop')"
-                        }}
+                    <Image
+                        src="/images/home/about/about.jpg"
+                        alt="Villa Marbella Bliss"
+                        fill
+                        className="absolute inset-0 object-cover bg-center"
                     />
                 </div>
             </Container>
