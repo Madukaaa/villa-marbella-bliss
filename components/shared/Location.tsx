@@ -32,7 +32,7 @@ export function Location() {
                         target="_blank" 
                         rel="noopener noreferrer"
                     >
-                        <Button variant="outline" size="lg">
+                        <Button variant="default" size="lg">
                             Get Directions
                         </Button>
                     </a>

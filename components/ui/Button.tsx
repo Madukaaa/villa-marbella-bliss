@@ -8,7 +8,7 @@ const buttonVariants = cva(
     {
         variants: {
             variant: {
-                default: "bg-teak text-ivory hover:bg-teak/90 shadow-md",
+                default: "bg-teak text-ivory hover:bg-teak/90 shadow-md cursor-pointer",
                 outline:
                     "border border-teak text-teak hover:bg-teak hover:text-ivory",
                 ghost: "hover:bg-accent hover:text-accent-foreground",

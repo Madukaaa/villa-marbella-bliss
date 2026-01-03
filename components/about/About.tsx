@@ -39,7 +39,7 @@ export function About() {
                 {/* Image Content */}
                 <div className="relative order-1 h-[400px] w-full overflow-hidden rounded-sm lg:order-2 lg:h-[560px]">
                     <Image
-                        src="/images/home/about/about.jpg"
+                        src="/images/about/livingSpace1.jpg"
                         alt="Villa Marbella Bliss"
                         fill
                         className="absolute inset-0 object-cover bg-center"
