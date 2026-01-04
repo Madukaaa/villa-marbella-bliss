@@ -40,16 +40,16 @@ export function Hero() {
                     </h3>
                     <ul className="space-y-6 text-sm text-charcoal/70 font-medium">
                         <li className="flex flex-col gap-1">
-                            <span className="text-charcoal font-semibold">Ultimate Privacy</span>
-                            <span className="text-xs text-charcoal/50">Secluded beachfront access</span>
+                            <span className="text-charcoal font-semibold">Beachfront Location</span>
+                            <span className="text-xs text-charcoal/50">Walking distance to Tangalle Beach</span>
                         </li>
                         <li className="flex flex-col gap-1">
-                            <span className="text-charcoal font-semibold">Private Chef</span>
-                            <span className="text-xs text-charcoal/50">Curated local & international menus</span>
+                            <span className="text-charcoal font-semibold">Fully Equipped Kitchen</span>
+                            <span className="text-xs text-charcoal/50">Modern appliances for self-catering</span>
                         </li>
                         <li className="flex flex-col gap-1">
-                            <span className="text-charcoal font-semibold">Tailored Experiences</span>
-                            <span className="text-xs text-charcoal/50">Excursions, yoga, and spa</span>
+                            <span className="text-charcoal font-semibold">Private Bathrooms</span>
+                            <span className="text-xs text-charcoal/50">Modern amenities & comfort</span>
                         </li>
                     </ul>
                 </div>
@@ -99,10 +99,15 @@ export function Hero() {
 
                     <div className="space-y-6 text-base font-light leading-relaxed text-charcoal/70">
                         <p>
-                            At Villa Marbella, we seek to provide personalized service to our curious travellers from around the world, thereby creating a memorable holiday at our exceptional sanctuary in Sri Lanka.
+                            Villa Marbella Bliss offers a comfortable and welcoming stay on Sri Lanka’s
+                            southern coast, with a focus on privacy, convenience, and relaxed
+                            hospitality.
                         </p>
                         <p>
-                            Our villa offers privacy, space, peace, history, architecture and friendly staff. The villa represents a whole new Sri Lankan experience, fiercely proud of its raw authenticity.
+                            Featuring modern amenities, private bathrooms, and a fully equipped
+                            kitchen, the villa is within walking distance of Tangalle Beach and close
+                            to key local attractions, making it ideal for families and leisure
+                            travelers.
                         </p>
                     </div>
                 </div>
