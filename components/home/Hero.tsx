@@ -65,14 +65,10 @@ export function Hero() {
                 />
                 <div className="absolute inset-0 bg-gradient-to-b from-transparent to-black/20" />
 
-                {/* Floating particles effect placeholder */}
-                <div className="absolute top-1/4 left-1/4 h-1 w-1 rounded-full bg-white/40 blur-[1px] animate-pulse" />
-                <div className="absolute top-1/2 left-3/4 h-1.5 w-1.5 rounded-full bg-white/30 blur-[1px] animate-pulse delay-700" />
-                <div className="absolute bottom-1/3 left-1/2 h-1 w-1 rounded-full bg-white/50 blur-[1px] animate-pulse delay-300" />
             </div>
 
             {/* Right Column: Interaction & Intro */}
-            <div className="flex flex-col justify-between bg-ivory px-8 py-12 lg:px-16 lg:py-16">
+            <div className="flex flex-col justify-between bg-white px-8 py-12 lg:px-16 lg:py-16">
 
                 {/* Top Nav (Replaces global header functionality for this view) */}
                 <div className="mb-12 flex items-center justify-between border-b border-charcoal/10 pb-6">
@@ -83,7 +79,7 @@ export function Hero() {
                         <AlignRight className="text-charcoal transition-transform group-hover:rotate-180" />
                         <span className="text-xs font-bold uppercase tracking-widest text-charcoal">Menu</span>
                     </div>
-                    <Link href="/contact" className="text-medium font-bold uppercase tracking-[0.3em] text-charcoal hover:text-gold transition-colors">
+                    <Link href="/contact" className="text-xs font-bold uppercase tracking-[0.3em] text-charcoal hover:text-gold transition-colors">
                         Contact Us
                     </Link>
                 </div>
@@ -94,7 +90,7 @@ export function Hero() {
                         Experience The Collection
                     </span>
                     <h2 className="mb-8 font-Cinzel,serif text-5xl font-normal leading-tight text-charcoal lg:text-6xl">
-                        About <br /> <span className="text-teak">Villa Marbella Bliss</span>
+                        <span className="text-teak">Villa Marbella Bliss</span>
                     </h2>
 
                     <div className="space-y-6 text-base font-light leading-relaxed text-charcoal/70">
