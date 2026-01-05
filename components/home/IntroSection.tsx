@@ -8,12 +8,12 @@ export function IntroSection() {
         <section className="relative px-8 pt-8 pb-20 lg:px-16 lg:pt-12 lg:pb-32 overflow-hidden">
             <div className="absolute inset-0 -z-10">
                 <Image
-                    src="/images/Background.jpg"
+                    src="/Background1.jpg"
                     alt="Intro Background"
                     fill
-                    className="object-cover opacity-40"
+                    className="object-cover"
                 />
-                <div className="absolute inset-0 bg-white/50" />
+                <div className="absolute inset-0 bg-white/65" />
             </div>
             <div className="container mx-auto relative z-10">
                 <div className="grid grid-cols-1 gap-12 lg:grid-cols-2 lg:gap-8 items-center">
