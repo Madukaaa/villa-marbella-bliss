@@ -19,7 +19,7 @@ export function IntroSection() {
                 <div className="grid grid-cols-1 gap-12 lg:grid-cols-2 lg:gap-8 items-center">
                     
                     {/* Left Column: Text & Image Grid */}
-                    <div className="flex flex-col gap-12 lg:pl-40 pt-40">
+                    <div className="flex flex-col gap-12 lg:pl-50 pt-40">
                         {/* Text Content */}
                         <motion.div
                             initial={{ opacity: 0, x: -50 }}
@@ -38,7 +38,7 @@ export function IntroSection() {
                                 </h2>
                             </div>
 
-                            <div className="space-y-4 text-base font-light leading-relaxed text-charcoal/80 max-w-xl">
+                            <div className="space-y-4 text-base font-light leading-relaxed text-charcoal/80 max-w-xl text-justify pr-20">
                                 <p>
                                     Get a glimpse of our distinctive abodes, enchanting locations and
                                     unique highlights that will make your stay with us truly
