@@ -1,7 +1,8 @@
 "use client";
 
 import Link from "next/link";
-import { useState } from "react";
+import { useState, useEffect } from "react";
+import { useRouter, useSearchParams } from "next/navigation";
 import { Container } from "@/components/ui/Container";
 import { Section } from "@/components/ui/Section";
 import { attractionsData } from "@/lib/attractions-data";
@@ -9,30 +10,45 @@ import { attractionsData } from "@/lib/attractions-data";
 const ITEMS_PER_PAGE = 12;
 
 export function Attractions() {
-  const [currentPage, setCurrentPage] = useState(1);
+  const router = useRouter();
+  const searchParams = useSearchParams();
+  const pageFromUrl = searchParams.get('page');
+  const [currentPage, setCurrentPage] = useState(pageFromUrl ? parseInt(pageFromUrl) : 1);
   
   const totalPages = Math.ceil(attractionsData.length / ITEMS_PER_PAGE);
   const startIndex = (currentPage - 1) * ITEMS_PER_PAGE;
   const endIndex = startIndex + ITEMS_PER_PAGE;
   const currentAttractions = attractionsData.slice(startIndex, endIndex);
 
+  useEffect(() => {
+    if (pageFromUrl) {
+      const page = parseInt(pageFromUrl);
+      if (page >= 1 && page <= totalPages) {
+        setCurrentPage(page);
+      }
+    }
+  }, [pageFromUrl, totalPages]);
+
+  const updatePage = (page: number) => {
+    setCurrentPage(page);
+    router.push(`/attractions?page=${page}`, { scroll: false });
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  };
+
   const handlePrevPage = () => {
     if (currentPage > 1) {
-      setCurrentPage(currentPage - 1);
-      window.scrollTo({ top: 0, behavior: 'smooth' });
+      updatePage(currentPage - 1);
     }
   };
 
   const handleNextPage = () => {
     if (currentPage < totalPages) {
-      setCurrentPage(currentPage + 1);
-      window.scrollTo({ top: 0, behavior: 'smooth' });
+      updatePage(currentPage + 1);
     }
   };
 
   const goToPage = (page: number) => {
-    setCurrentPage(page);
-    window.scrollTo({ top: 0, behavior: 'smooth' });
+    updatePage(page);
   };
 
   return (

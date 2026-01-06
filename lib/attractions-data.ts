@@ -85,7 +85,7 @@ export const attractionsData: Attraction[] = [
     ],
     distance: "48 km",
     driveTime: "1 hr 10 min",
-    directionsUrl: "https://maps.google.com/?q=Hambantota+Bird+Park+Sri+Lanka"
+    directionsUrl: "https://maps.app.goo.gl/WuMxdoyUpr8Pcqam6"
   },
   {
     slug: "ridiyagama-lion-safari",
@@ -130,7 +130,7 @@ export const attractionsData: Attraction[] = [
     ],
     distance: "13 km",
     driveTime: "22 min",
-    directionsUrl: "https://maps.google.com/?q=Hiriketiya+Beach+Tangalle"
+    directionsUrl: "https://maps.app.goo.gl/p8HENftSLT5s2YBp6"
   },
   {
     slug: "goyambokka-beach",
@@ -175,7 +175,7 @@ export const attractionsData: Attraction[] = [
     ],
     distance: "12 km",
     driveTime: "25 min",
-    directionsUrl: "https://maps.google.com/?q=Bata+Atha+Agro+Farm+Tangalle"
+    directionsUrl: "https://maps.app.goo.gl/femGyLZsHaZ2mvsw7"
   },
   {
     slug: "parei-wella-beach",
@@ -191,21 +191,6 @@ export const attractionsData: Attraction[] = [
     distance: "1 km",
     driveTime: "5 min",
     directionsUrl: "https://maps.google.com/?q=Parei+Wella+Beach+Tangalle"
-  },
-  {
-    slug: "kalametiya-beach",
-    title: "Kalametiya Beach",
-    subtitle: "Southern Sri Lanka",
-    image: "https://images.unsplash.com/photo-1519046904884-53103b34b206?q=80&w=1770&auto=format&fit=crop",
-    heroImage: "https://images.unsplash.com/photo-1519046904884-53103b34b206?q=80&w=1770&auto=format&fit=crop",
-    description: "A tranquil coastal haven surrounded by lagoon and mangroves, famous for birdwatching.",
-    longDescription: [
-      "Kalametiya Beach is a tranquil coastal haven renowned for its rich biodiversity, uniquely surrounded by a lagoon and lush mangrove forests. This rare blend of freshwater and ocean ecosystems creates a thriving natural environment, supporting diverse marine life and vibrant plant species. Calm lagoon waters, winding mangrove channels, and an unspoiled shoreline make Kalametiya an ideal destination for nature lovers seeking serenity and ecological beauty.",
-      "The area is especially famous as a birdwatching paradise, attracting pelicans, flamingos, herons, and many migratory birds throughout the year. Nature trails and boat rides through the mangroves offer immersive exploration, while conservation initiatives help protect this delicate ecosystem. As evening falls, Kalametiya Beach rewards visitors with peaceful sunset views over the lagoon, making it a perfect spot to connect with nature along Sri Lanka's southern coast."
-    ],
-    distance: "15 km",
-    driveTime: "28 min",
-    directionsUrl: "https://maps.google.com/?q=Kalametiya+Beach+Sri+Lanka"
   },
   {
     slug: "navy-sea-view-garden",
@@ -235,7 +220,7 @@ export const attractionsData: Attraction[] = [
     ],
     distance: "16 km",
     driveTime: "26 min",
-    directionsUrl: "https://maps.google.com/?q=Wewurukannala+Vihara+Temple+Dikwella"
+    directionsUrl: "https://maps.app.goo.gl/ivVPHDsxCtgfhz7w7"
   },
   {
     slug: "unakuruwa-surf-point",
@@ -250,7 +235,7 @@ export const attractionsData: Attraction[] = [
     ],
     distance: "11 km",
     driveTime: "20 min",
-    directionsUrl: "https://maps.google.com/?q=Unakuruwa+Surf+Point+Tangalle"
+    directionsUrl: "https://maps.app.goo.gl/2JMKwJ7BUgNKwfeb9"
   },
   {
     slug: "tangalle-beach",
@@ -280,7 +265,7 @@ export const attractionsData: Attraction[] = [
     ],
     distance: "15 km",
     driveTime: "32 min",
-    directionsUrl: "https://maps.google.com/?q=Kalametiya+Bird+Sanctuary+Sri+Lanka"
+    directionsUrl: "https://maps.app.goo.gl/1wRLYwUrZ9r5wGjK7"
   },
   {
     slug: "yala-national-park",
