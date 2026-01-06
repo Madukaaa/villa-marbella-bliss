@@ -1,4 +1,5 @@
 import { About } from "@/components/about/About";
+import { Stats } from "@/components/about/Stats";
 import { Showcase } from "@/components/shared/Showcase";
 import { Location } from "@/components/shared/Location";
 
@@ -31,6 +32,7 @@ export default function AboutPage() {
 
       {/* Content Sections */}
       <About />
+      <Stats />
       <Showcase />
 
     </main>
