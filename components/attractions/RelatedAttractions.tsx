@@ -31,7 +31,7 @@ export function RelatedAttractions({ attractions }: RelatedAttractionsProps) {
               {/* Image Container */}
                 <div className="relative h-[400px] overflow-hidden mb-6">
                   <img
-                    src={attraction.image}
+                    src={attraction.heroImage}
                     alt={attraction.title}
                     className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
                   />

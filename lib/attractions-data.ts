@@ -6,128 +6,296 @@ export interface Attraction {
   heroImage: string;
   description: string;
   longDescription: string[];
+  distance: string;
+  driveTime: string;
+  directionsUrl: string;
 }
 
 export const attractionsData: Attraction[] = [
   {
+    slug: "tangalle-lagoon-kayak",
+    title: "Tangalle Lagoon Kayak Adventure",
+    subtitle: "Tangalle",
+    image: "/images/attractions/lagoonKayak.JPG",
+    heroImage: "/images/attractions/lagoonKayak1.JPG",
+    description: "Paddle through calm mangrove waters on a peaceful kayaking adventure at Tangalle Lagoon.",
+    longDescription: [
+      "Just a short drive from Tangalle town lies the calm and scenic Tangalle Lagoon, a hidden natural escape perfect for kayaking and peaceful exploration. Surrounded by lush mangroves and tranquil waters, the lagoon offers visitors a chance to experience a quieter side of Sri Lanka's southern coast. Easily reachable within about 20 minutes, it is suitable for both beginners and experienced kayakers seeking relaxation and gentle adventure.",
+      "Paddling through the lagoon reveals a rich ecosystem filled with mangrove forests, colorful birdlife, and occasional sightings of monitor lizards and monkeys along the banks. A sunset kayak is especially memorable, as golden hues reflect across the still water, creating a magical atmosphere. Combining nature, wildlife, and serenity, the Tangalle Lagoon Kayak Adventure is an unforgettable experience for travelers looking to connect with Sri Lanka's natural beauty."
+    ],
+    distance: "8 km",
+    driveTime: "15 min",
+    directionsUrl: "https://maps.app.goo.gl/KjDRFZAPLx1VetR98"
+  },
+  {
+    slug: "madaketiya-beach",
+    title: "Madaketiya Beach",
+    subtitle: "Tangalle",
+    image: "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?q=80&w=1770&auto=format&fit=crop",
+    heroImage: "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?q=80&w=1770&auto=format&fit=crop",
+    description: "A quiet and unspoiled stretch of coastline perfect for peaceful relaxation and natural beauty.",
+    longDescription: [
+      "Madaketiya Beach is a quiet and unspoiled stretch of coastline located just 5 km north of Tangalle, reachable within 15–20 minutes by tuk-tuk or car. Away from the busy town and crowded beaches, this hidden gem offers a peaceful escape where nature takes center stage, making it ideal for travelers seeking calm and simplicity.",
+      "With soft golden sands, clear Indian Ocean waters, and a relaxed atmosphere, Madaketiya Beach is perfect for swimming, leisurely walks, and quiet relaxation. Rocky formations and small coves add character to the shoreline, especially during low tide when tide pools and marine life can be explored. Free from heavy development, Madaketiya Beach is a serene coastal retreat that captures the untouched beauty of Sri Lanka's southern coast."
+    ],
+    distance: "5 km",
+    driveTime: "12 min",
+    directionsUrl: "https://maps.google.com/?q=Madaketiya+Beach+Tangalle"
+  },
+  {
     slug: "hummanaya-blow-hole",
     title: "Hummanaya Blow Hole",
-    subtitle: "Dickwella",
-    image: "https://images.unsplash.com/photo-1506953823976-52e1fdc0149a?q=80&w=1770&auto=format&fit=crop",
-    heroImage: "https://images.unsplash.com/photo-1506953823976-52e1fdc0149a?q=80&w=1770&auto=format&fit=crop",
-    description: "Uncover a natural phenomenon at Dikwella's Hummanaya Blow Hole",
+    subtitle: "Kudawella (Near Tangalle)",
+    image: "/images/attractions/hummanaya.jpeg",
+    heroImage: "/images/attractions/hummanaya.jpeg",
+    description: "Witness the second-largest blow hole in the world with water erupting up to 30 meters high.",
     longDescription: [
-      "Known to be the second largest in the world and the largest in Sri Lanka alone, discover the Hummanaya Blow Hole while you explore the southern coast! Located in Kudawella, a little after the bustling town of Matara; the Hummanaya Blow Hole can be accessed by a short 5-10 minute walk through a small, quiet lane dotted with local vendors selling handicrafts, street food and refreshing beverages. Enjoy scenic views of the beautiful blue coast as you trek along the pathway leading to the attraction. After the main entrance and ticket counter, trek through rugged terrain before reaching this natural attraction. The blow hole attracts tourists from around the world to witness its magnificence.",
-      "The Hummanaya Blow Hole is a natural wonder that sprays a jet of sea water into the air between two giant rocks; sometimes reaching heights of over 80 – 100 feet, and should be added to your list of things to see while you stay with us in Mirissa. The best time to see this is during high tide, as you can experience the salty spray on your skin as seawater jets towards the sky and falls back on its wide-eyed audience."
-    ]
+      "Located about 21 km from Tangalle, Hummanaya Blow Hole is one of Sri Lanka's most dramatic natural wonders and the second-largest blow hole in the world. Easily reachable within 30–40 minutes by road, the journey itself offers scenic views of coastal villages, paddy fields, and the southern shoreline. As powerful waves of the Indian Ocean surge through an underground rock tunnel, water erupts high into the air, sometimes reaching up to 30 meters, creating a breathtaking spectacle best seen during the monsoon season.",
+      "Visitors can safely enjoy this phenomenon from designated viewing platforms while soaking in the raw beauty of the coastline. Nearby, Rekawa Beach offers an equally memorable experience with turtle watching, where conservation-led night tours allow visitors to witness endangered sea turtles nesting or hatchlings making their first journey to the ocean. Together, Hummanaya Blow Hole and Rekawa Turtle Watch create a perfect blend of natural wonder and wildlife conservation for travelers exploring southern Sri Lanka."
+    ],
+    distance: "21 km",
+    driveTime: "35 min",
+    directionsUrl: "https://maps.app.goo.gl/MQGSsRPcnj8JQs7QA"
   },
   {
-    slug: "parrot-rock",
-    title: "Parrot Rock",
-    subtitle: "Mirissa Beach",
-    image: "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?q=80&w=1770&auto=format&fit=crop",
-    heroImage: "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?q=80&w=1770&auto=format&fit=crop",
-    description: "Parrot Rock located just off Mirissa Beach is one of the spots you don't want to miss while in Mirissa.",
+    slug: "rekawa-turtle-watching",
+    title: "Turtle Watching at Rekawa Beach",
+    subtitle: "Tangalle",
+    image: "/images/attractions/turtleWatching2.jpeg",
+    heroImage: "/images/attractions/turtleWatching.jpg",
+    description: "Witness endangered sea turtles nesting under the stars at Rekawa Beach conservation site.",
     longDescription: [
-      "Parrot Rock is an iconic landmark located at the western end of Mirissa Beach. This small rocky outcrop, shaped somewhat like a parrot's beak, rises dramatically from the turquoise waters of the Indian Ocean. It's easily accessible during low tide by walking across the sandy beach, making it a popular spot for visitors.",
-      "The rock formation offers stunning panoramic views of the coastline and is particularly famous for sunset watching. Many visitors climb to the top to capture breathtaking photographs of the sun dipping into the ocean. The surrounding area features golden sand beaches and crystal-clear waters, perfect for swimming and relaxation. Local restaurants and beach cafes line the shore, offering fresh seafood and refreshing beverages while you enjoy the coastal views."
-    ]
+      "Located along the quiet shores near Tangalle, Rekawa Beach is one of Sri Lanka's most important natural nesting sites for endangered sea turtles. As night falls, this peaceful coastline transforms into a stage for one of nature's most extraordinary events, where green turtles and loggerheads come ashore to lay their eggs. Guided night tours led by local conservationists allow visitors to witness this rare and moving experience in a responsible and educational manner.",
+      "Under the moonlit sky, visitors may observe mother turtles carefully nesting or, during hatching seasons, tiny hatchlings emerging from the sand and instinctively heading toward the ocean. These tours highlight the importance of conservation and the efforts taken to protect these ancient creatures from extinction. Calm, respectful, and deeply memorable, turtle watching at Rekawa offers travelers a meaningful connection to nature and a powerful reminder of Sri Lanka's rich coastal wildlife heritage."
+    ],
+    distance: "10 km",
+    driveTime: "20 min",
+    directionsUrl: "https://maps.app.goo.gl/59wWYqPJiGqDrmiw7"
   },
   {
-    slug: "galle-dutch-fort",
-    title: "Galle Dutch Fort",
-    subtitle: "Galle",
-    image: "https://images.unsplash.com/photo-1559827260-dc66d52bef19?q=80&w=1770&auto=format&fit=crop",
-    heroImage: "https://images.unsplash.com/photo-1559827260-dc66d52bef19?q=80&w=1770&auto=format&fit=crop",
-    description: "Explore the South's most recognizable landmark, the Galle Dutch Fort",
+    slug: "hambantota-bird-park",
+    title: "Hambantota Bird Park",
+    subtitle: "Hambantota",
+    image: "/images/attractions/birdsPark1.jpg",
+    heroImage: "/images/attractions/birdsPark1.jpg",
+    description: "Explore a peaceful sanctuary showcasing Sri Lanka's rich birdlife and natural beauty.",
     longDescription: [
-      "The Galle Fort, also known as the Dutch Fort, is a UNESCO World Heritage Site and the largest remaining fortress in Asia built by European occupiers. Originally built by the Portuguese in 1588, it was extensively fortified by the Dutch during the 17th century. The fort showcases a blend of European architecture and South Asian traditions, creating a unique cultural landscape.",
-      "Walking through the cobblestone streets within the fort walls feels like stepping back in time. The area is home to museums, churches, mosques, temples, boutique hotels, cafes, and art galleries. The iconic lighthouse stands as a beacon at the fort's edge, while the ramparts offer spectacular views of the Indian Ocean. Don't miss the chance to walk along the fort walls during sunset for an unforgettable experience."
-    ]
+      "Nestled in Sri Lanka's southern province, the Hambantota Bird Park is a peaceful sanctuary that showcases the island's rich birdlife and natural beauty. Located just a short drive from Hambantota town, this tranquil park spans lush wetlands and green landscapes, offering visitors an escape into nature. Easily accessible by car or tuk-tuk, the park welcomes guests with soothing bird calls and a calm atmosphere, making it an ideal destination for nature lovers and photographers alike.",
+      "Home to a diverse range of resident and migratory bird species, the Hambantota Bird Park provides an immersive experience where visitors can observe birds in their natural habitat. Guided walks led by experienced naturalists reveal fascinating insights into avian behavior, while tranquil ponds and forested areas offer opportunities to spot colorful water birds and elusive forest species. During the migratory season, the park comes alive with flocks of visiting birds, creating a spectacular sight. Beyond birdwatching, the park also promotes conservation awareness through educational displays, making it a rewarding and enriching stop on your southern Sri Lanka journey."
+    ],
+    distance: "48 km",
+    driveTime: "1 hr 10 min",
+    directionsUrl: "https://maps.google.com/?q=Hambantota+Bird+Park+Sri+Lanka"
   },
   {
-    slug: "mirissa-beach",
-    title: "Mirissa Beach",
-    subtitle: "Mirissa",
-    image: "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?q=80&w=1770&auto=format&fit=crop",
-    heroImage: "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?q=80&w=1770&auto=format&fit=crop",
-    description: "Experience the golden sands and crystal clear waters of Mirissa Beach, perfect for swimming and relaxation.",
+    slug: "ridiyagama-lion-safari",
+    title: "Ridiyagama Lion Safari",
+    subtitle: "Hambantota",
+    image: "https://images.unsplash.com/photo-1534188753412-5de5c2e15d49?q=80&w=1770&auto=format&fit=crop",
+    heroImage: "https://images.unsplash.com/photo-1534188753412-5de5c2e15d49?q=80&w=1770&auto=format&fit=crop",
+    description: "Experience an exciting safari with lions, elephants, and wildlife in a natural eco-friendly sanctuary.",
     longDescription: [
-      "Mirissa Beach is one of Sri Lanka's most beautiful coastal stretches, featuring a stunning crescent-shaped bay with soft golden sand and gentle turquoise waves. The beach is lined with swaying palm trees that provide natural shade, creating the perfect tropical paradise setting.",
-      "The calm waters make it ideal for swimming, while the consistent waves attract surfers from around the world. Beach bars and restaurants serve fresh seafood and tropical cocktails, and the laid-back atmosphere makes it perfect for both relaxation and socializing. The beach truly comes alive during sunset when the sky transforms into brilliant shades of orange and pink."
-    ]
+      "Located near Hambantota in Sri Lanka's southern province, Ridiyagama Lion Safari is a unique wildlife park that offers an exciting and immersive safari experience. Spanning over 500 acres of lush landscapes, this eco-friendly sanctuary is dedicated to wildlife conservation and provides a natural environment where animals roam freely. Easily accessible by road, the journey to Ridiyagama itself is scenic, passing through peaceful countryside and rural charm.",
+      "The highlight of the park is the chance to observe majestic lions up close from specially designed safari vehicles, along with sightings of elephants, deer, leopards, and a wide variety of birdlife. Guided tours led by experienced rangers offer valuable insights into animal behavior and conservation efforts. Beyond the safari drive, visitors can enjoy walking trails, picnic areas, and educational exhibits, making Ridiyagama Lion Safari a perfect destination for nature lovers, families, and adventure seekers exploring southern Sri Lanka."
+    ],
+    distance: "52 km",
+    driveTime: "1 hr 15 min",
+    directionsUrl: "https://maps.google.com/?q=Ridiyagama+Safari+Park+Hambantota"
   },
   {
-    slug: "whale-watching",
-    title: "Whale Watching",
-    subtitle: "Mirissa Harbor",
-    image: "https://images.unsplash.com/photo-1559827260-dc66d52bef19?q=80&w=1770&auto=format&fit=crop",
-    heroImage: "https://images.unsplash.com/photo-1559827260-dc66d52bef19?q=80&w=1770&auto=format&fit=crop",
-    description: "Embark on an unforgettable whale watching adventure from Mirissa harbor.",
+    slug: "mulkirigala-temple",
+    title: "Mulkirigala Temple",
+    subtitle: "Tangalle",
+    image: "/images/attractions/mulkirigala.jpeg",
+    heroImage: "/images/attractions/mulkirigalaTemple.jpeg",
+    description: "Discover a 2,000-year-old rock temple with stunning murals and panoramic countryside views.",
     longDescription: [
-      "Mirissa is renowned as one of the best whale watching destinations in the world. The deep waters off the southern coast of Sri Lanka serve as a migration route for blue whales, sperm whales, and various dolphin species. Tours typically depart early morning from Mirissa Harbor, taking you on an exciting journey into the Indian Ocean.",
-      "During the peak season from November to April, sightings of majestic blue whales—the largest animals on Earth—are common. You'll also have the chance to spot spinner dolphins, pilot whales, and even the occasional turtle or manta ray. The experience of seeing these magnificent creatures in their natural habitat is truly breathtaking and creates memories that last a lifetime."
-    ]
+      "Rising gracefully from the lush landscapes of Sri Lanka's southern province, Mulkirigala Temple (Mulkirigala Raja Maha Vihara) is an ancient rock temple steeped in history and spiritual significance. Dating back over 2,000 years to the 3rd century BCE, this sacred site is one of the country's oldest Buddhist temples. Built into a massive rock formation near Tangalle, the temple complex features seven terraced levels adorned with centuries-old murals, statues, and stupas, offering visitors a rare blend of cultural heritage and natural beauty.",
+      "As visitors ascend the rock, they are rewarded with serene surroundings and breathtaking panoramic views of the countryside below. The calm atmosphere, echoing with Buddhist chants, makes Mulkirigala an ideal place for reflection and exploration. Located about 20 km from Tangalle and easily reachable within 30–40 minutes, the temple is a perfect day excursion for travelers seeking history, spirituality, photography, and scenic beauty in one unforgettable experience."
+    ],
+    distance: "18 km",
+    driveTime: "30 min",
+    directionsUrl: "https://maps.google.com/?q=Mulkirigala+Temple+Sri+Lanka"
   },
   {
-    slug: "secret-beach",
-    title: "Secret Beach",
-    subtitle: "Mirissa",
-    image: "https://images.unsplash.com/photo-1506953823976-52e1fdc0149a?q=80&w=1770&auto=format&fit=crop",
-    heroImage: "https://images.unsplash.com/photo-1506953823976-52e1fdc0149a?q=80&w=1770&auto=format&fit=crop",
-    description: "Discover the hidden gem of Secret Beach, a secluded paradise away from the crowds.",
-    longDescription: [
-      "Tucked away behind Parrot Rock at the western end of Mirissa Beach, Secret Beach lives up to its name as a hidden paradise. This small, secluded cove is accessible only by climbing over rocks or taking a short path through coconut groves, which keeps it relatively quiet even during peak tourist season.",
-      "The intimate beach offers pristine sand, clear turquoise waters, and excellent snorkeling opportunities among the rocks. The dramatic rocky outcrops provide natural shade and create stunning photo opportunities. It's the perfect escape for those seeking tranquility and a more private beach experience away from the main Mirissa Beach crowds."
-    ]
-  },
-  {
-    slug: "coconut-tree-hill",
-    title: "Coconut Tree Hill",
-    subtitle: "Mirissa",
-    image: "https://images.unsplash.com/photo-1519046904884-53103b34b206?q=80&w=1770&auto=format&fit=crop",
-    heroImage: "https://images.unsplash.com/photo-1519046904884-53103b34b206?q=80&w=1770&auto=format&fit=crop",
-    description: "Capture stunning sunset views from the iconic Coconut Tree Hill overlooking the ocean.",
-    longDescription: [
-      "Coconut Tree Hill has become one of Mirissa's most Instagram-worthy locations. This small hill covered with tall, swaying coconut palms offers panoramic views of the coastline and the vast Indian Ocean. The iconic rows of palm trees create a stunning natural backdrop that has made this spot famous on social media.",
-      "The best time to visit is during golden hour—either at sunrise or sunset—when the light creates a magical atmosphere. The walk to the top is relatively easy, taking just a few minutes from Secret Beach. From the summit, you can see the entire sweep of Mirissa Beach, Parrot Rock, and the endless blue horizon. It's a must-visit spot for photography enthusiasts and nature lovers alike."
-    ]
-  },
-  {
-    slug: "surfing-weligama",
-    title: "Surfing at Weligama",
-    subtitle: "Weligama Bay",
+    slug: "hiriketiya-surfing-beach",
+    title: "Hiriketiya Surfing Beach",
+    subtitle: "Near Tangalle",
     image: "https://images.unsplash.com/photo-1502933691298-84fc14542831?q=80&w=1770&auto=format&fit=crop",
     heroImage: "https://images.unsplash.com/photo-1502933691298-84fc14542831?q=80&w=1770&auto=format&fit=crop",
-    description: "Ride the waves at Weligama Bay, one of Sri Lanka's best beginner-friendly surfing spots.",
+    description: "Surf smooth, consistent waves in a scenic crescent-shaped bay perfect for all skill levels.",
     longDescription: [
-      "Weligama Bay, meaning 'sandy village' in Sinhala, is one of Sri Lanka's premier surfing destinations. The bay's gentle, rolling waves make it perfect for beginners, while more experienced surfers can find challenging breaks during the right conditions. The sandy bottom and consistent waves throughout the year have made Weligama a hub for surf schools and enthusiasts.",
-      "Numerous surf schools line the beach, offering lessons and board rentals at affordable prices. The warm tropical waters mean you can surf without a wetsuit year-round. Beyond surfing, Weligama offers a charming beach town atmosphere with plenty of cafes, restaurants, and accommodation options. The bay is also home to the famous stilt fishermen, a traditional Sri Lankan fishing method that makes for great photographs."
-    ]
+      "Hiriketiya Surfing Beach, locally known as 'Hiri,' is one of Sri Lanka's top surf spots, located about 13 km east of Tangalle and reachable within a 20-minute drive. This scenic crescent-shaped bay is naturally protected from strong winds, creating smooth, consistent waves that are perfect for both beginners and experienced surfers.",
+      "Surrounded by palm-fringed cliffs and golden sands, Hiriketiya offers a relaxed and vibrant beach atmosphere. Surf schools and board rentals make it easy for newcomers to get started, while experienced surfers enjoy clean breaks and reliable swells. With beachfront cafés, fresh seafood, and a laid-back coastal vibe, Hiriketiya Surfing Beach is an ideal blend of adventure, relaxation, and tropical charm on Sri Lanka's southern coast."
+    ],
+    distance: "13 km",
+    driveTime: "22 min",
+    directionsUrl: "https://maps.google.com/?q=Hiriketiya+Beach+Tangalle"
   },
   {
-    slug: "snorkeling-diving",
-    title: "Snorkeling & Diving",
-    subtitle: "Southern Coast",
-    image: "https://images.unsplash.com/photo-1544551763-46a013bb70d5?q=80&w=1770&auto=format&fit=crop",
-    heroImage: "https://images.unsplash.com/photo-1544551763-46a013bb70d5?q=80&w=1770&auto=format&fit=crop",
-    description: "Explore vibrant coral reefs and marine life through snorkeling and diving adventures.",
+    slug: "goyambokka-beach",
+    title: "Goyambokka Beach",
+    subtitle: "Tangalle",
+    image: "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?q=80&w=1770&auto=format&fit=crop",
+    heroImage: "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?q=80&w=1770&auto=format&fit=crop",
+    description: "Enjoy soft golden sands and clear blue waters at this peaceful hidden gem near Tangalle.",
     longDescription: [
-      "The southern coast of Sri Lanka offers exceptional underwater experiences for both snorkelers and scuba divers. The warm, clear waters are home to vibrant coral reefs teeming with tropical fish, sea turtles, reef sharks, and rays. Popular dive sites include shipwrecks, coral gardens, and rocky reefs that host an incredible diversity of marine life.",
-      "Mirissa and nearby areas offer numerous dive centers that cater to all experience levels, from complete beginners to advanced divers. Snorkeling trips are also available for those who prefer to stay closer to the surface. The underwater visibility is excellent during the dry season, and the warm water temperatures make diving comfortable year-round. Whether you're exploring colorful coral formations or swimming alongside graceful sea turtles, the underwater world of Sri Lanka's south coast is truly mesmerizing."
-    ]
+      "Goyambokka Beach is a peaceful and scenic beach located just a short 15–20 minute drive from Tangalle town, making it an ideal escape for travelers seeking relaxation by the sea. Known for its soft golden sands, clear blue waters, and calm surroundings, this hidden gem offers a quieter alternative to more crowded beaches along Sri Lanka's southern coast.",
+      "The beach's secluded atmosphere is perfect for swimming, leisurely walks, sunbathing, or simply unwinding under swaying palm trees. Gentle waves and clean waters create a soothing coastal experience, while nearby local eateries serve fresh seafood and traditional Sri Lankan flavors. With its natural beauty, easy access, and tranquil charm, Goyambokka Beach is a must-visit spot for those looking to relax and reconnect with nature while staying in Tangalle."
+    ],
+    distance: "7 km",
+    driveTime: "18 min",
+    directionsUrl: "https://maps.google.com/?q=Goyambokka+Beach+Tangalle"
   },
   {
-    slug: "rekawa-turtle-conservation",
-    title: "Rekawa Turtle Conservation Project",
-    subtitle: "Rekawa",
-    image: "https://images.unsplash.com/photo-1559827260-dc66d52bef19?q=80&w=1770&auto=format&fit=crop",
-    heroImage: "https://images.unsplash.com/photo-1559827260-dc66d52bef19?q=80&w=1770&auto=format&fit=crop",
-    description: "Make a lasting impact with a Rekawa Turtle Conservation Project Tour",
+    slug: "silent-beach",
+    title: "Silent Beach",
+    subtitle: "Tangalle",
+    image: "/images/attractions/silentBeach.jpg",
+    heroImage: "/images/attractions/silentBeach2.jpg",
+    description: "Escape to a secluded beach known for its calm atmosphere and stunning sunsets.",
     longDescription: [
-      "The Rekawa Turtle Conservation Project is a community-based initiative dedicated to protecting sea turtles and their nesting sites along the southern coast of Sri Lanka. Rekawa Beach is one of the most important nesting sites for five species of sea turtles, including the endangered Green, Leatherback, Olive Ridley, Loggerhead, and Hawksbill turtles.",
-      "Visitors can join nighttime turtle watching tours led by trained local guides who help protect nesting mothers and their eggs. The experience of witnessing a mother turtle laying her eggs under the stars is truly magical and educational. The project also focuses on community education and sustainable tourism practices. All proceeds from tours go directly toward conservation efforts and supporting local communities, making your visit a meaningful contribution to protecting these ancient marine creatures."
-    ]
+      "Silent Beach is a secluded and unspoiled stretch of coastline located just 15–20 minutes from Tangalle, offering a peaceful escape from busy tourist areas. True to its name, this hidden beach is known for its calm atmosphere, soft golden sands, and clear turquoise waters, making it an ideal retreat for travelers seeking privacy and tranquility by the sea.",
+      "With minimal development and fewer visitors, Silent Beach allows guests to fully connect with nature—whether relaxing under the sun, enjoying a quiet walk along the shore, or watching stunning sunsets over the Indian Ocean. Easily accessible yet wonderfully serene, Silent Beach is a perfect destination for those looking to unwind, reflect, and experience the untouched beauty of Sri Lanka's southern coast."
+    ],
+    distance: "6 km",
+    driveTime: "16 min",
+    directionsUrl: "https://maps.google.com/?q=Silent+Beach+Tangalle"
+  },
+  {
+    slug: "bata-atha-agro-farm",
+    title: "Bata Atha Agro Farm",
+    subtitle: "Sri Lanka",
+    image: "https://images.unsplash.com/photo-1500382017468-9049fed747ef?q=80&w=1770&auto=format&fit=crop",
+    heroImage: "https://images.unsplash.com/photo-1500382017468-9049fed747ef?q=80&w=1770&auto=format&fit=crop",
+    description: "Experience sustainable farming traditions and authentic village life at this serene rural retreat.",
+    longDescription: [
+      "Tucked away in Sri Lanka's peaceful countryside, Bata Atha Agro Farm is a serene rural retreat that highlights the island's rich agricultural heritage and sustainable farming traditions. Surrounded by lush greenery, rolling hills, and fertile farmland, the farm offers visitors an authentic glimpse into village life and eco-friendly living. Reached via a scenic drive through rural landscapes, it provides a refreshing escape from busy urban environments.",
+      "The farm showcases organic cultivation through rice fields, fruit orchards, vegetable gardens, and spice plantations, all grown in harmony with nature. Guided tours introduce visitors to traditional farming techniques, composting methods, and sustainable practices, while hands-on activities such as rice harvesting and farm-to-table dining create memorable experiences. Ideal for nature lovers and those seeking tranquility, Bata Atha Agro Farm offers a meaningful connection to Sri Lanka's rural charm and sustainable way of life."
+    ],
+    distance: "12 km",
+    driveTime: "25 min",
+    directionsUrl: "https://maps.google.com/?q=Bata+Atha+Agro+Farm+Tangalle"
+  },
+  {
+    slug: "parei-wella-beach",
+    title: "Parei Wella Beach",
+    subtitle: "Tangalle",
+    image: "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?q=80&w=1770&auto=format&fit=crop",
+    heroImage: "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?q=80&w=1770&auto=format&fit=crop",
+    description: "A quiet beach with golden sands, clear waters, and breathtaking sunset views near Tangalle town.",
+    longDescription: [
+      "Parei Wella Beach is a quiet and scenic beach tucked away in the coastal town of Tangalle, offering a peaceful escape along Sri Lanka's southern shoreline. With its soft golden sands, clear blue waters, and uncrowded atmosphere, this hidden gem is ideal for travelers seeking relaxation away from busy tourist beaches. Located just about 1 km from Tangalle town, the beach is easily accessible within minutes by foot, bicycle, or tuk-tuk.",
+      "The calm waters make Parei Wella Beach suitable for swimming and light snorkeling, while its natural surroundings and swaying palms create a soothing coastal ambiance. Visitors can enjoy breathtaking sunset views as the sky transforms into vibrant shades of orange and pink. Close to attractions such as Tangalle Lagoon, Mulkirigala Rock Temple, and local markets, Parei Wella Beach is a perfect blend of tranquility, natural beauty, and convenience for a relaxing seaside getaway."
+    ],
+    distance: "1 km",
+    driveTime: "5 min",
+    directionsUrl: "https://maps.google.com/?q=Parei+Wella+Beach+Tangalle"
+  },
+  {
+    slug: "kalametiya-beach",
+    title: "Kalametiya Beach",
+    subtitle: "Southern Sri Lanka",
+    image: "https://images.unsplash.com/photo-1519046904884-53103b34b206?q=80&w=1770&auto=format&fit=crop",
+    heroImage: "https://images.unsplash.com/photo-1519046904884-53103b34b206?q=80&w=1770&auto=format&fit=crop",
+    description: "A tranquil coastal haven surrounded by lagoon and mangroves, famous for birdwatching.",
+    longDescription: [
+      "Kalametiya Beach is a tranquil coastal haven renowned for its rich biodiversity, uniquely surrounded by a lagoon and lush mangrove forests. This rare blend of freshwater and ocean ecosystems creates a thriving natural environment, supporting diverse marine life and vibrant plant species. Calm lagoon waters, winding mangrove channels, and an unspoiled shoreline make Kalametiya an ideal destination for nature lovers seeking serenity and ecological beauty.",
+      "The area is especially famous as a birdwatching paradise, attracting pelicans, flamingos, herons, and many migratory birds throughout the year. Nature trails and boat rides through the mangroves offer immersive exploration, while conservation initiatives help protect this delicate ecosystem. As evening falls, Kalametiya Beach rewards visitors with peaceful sunset views over the lagoon, making it a perfect spot to connect with nature along Sri Lanka's southern coast."
+    ],
+    distance: "15 km",
+    driveTime: "28 min",
+    directionsUrl: "https://maps.google.com/?q=Kalametiya+Beach+Sri+Lanka"
+  },
+  {
+    slug: "navy-sea-view-garden",
+    title: "Navy Sea View Garden / Point",
+    subtitle: "Tangalle",
+    image: "https://images.unsplash.com/photo-1495954484750-af469f2f9be5?q=80&w=1770&auto=format&fit=crop",
+    heroImage: "https://images.unsplash.com/photo-1495954484750-af469f2f9be5?q=80&w=1770&auto=format&fit=crop",
+    description: "Watch breathtaking sunrise views over the Indian Ocean at this peaceful coastal viewpoint.",
+    longDescription: [
+      "Located along the scenic coastline of Tangalle, opposite the Tangalle Ruhuna Navy Camp, the Navy Sea View Garden is a peaceful viewpoint best known for its breathtaking sunrise views. Overlooking the vast Indian Ocean, this quiet spot offers an unobstructed horizon where early morning light paints the sky in soft shades of gold, pink, and orange, creating a calm and unforgettable coastal experience.",
+      "Arriving around 6:00 AM allows visitors to witness the sun rising gently above the ocean, accompanied by the soothing sound of waves below. Less crowded and mostly known to locals, the Navy Sea View Garden is ideal for photographers, nature lovers, and travelers seeking a serene moment by the sea. Clean surroundings, fresh ocean air, and natural beauty make it a perfect place to start the day in Tangalle."
+    ],
+    distance: "2 km",
+    driveTime: "8 min",
+    directionsUrl: "https://maps.google.com/?q=Navy+Sea+View+Garden+Tangalle"
+  },
+  {
+    slug: "wewurukannala-vihara-temple",
+    title: "Wewurukannala Vihara Temple",
+    subtitle: "Dikwella",
+    image: "https://images.unsplash.com/photo-1548013146-72479768bada?q=80&w=1770&auto=format&fit=crop",
+    heroImage: "https://images.unsplash.com/photo-1548013146-72479768bada?q=80&w=1770&auto=format&fit=crop",
+    description: "Visit Sri Lanka's largest seated Buddha statue and explore historic murals and shrine rooms.",
+    longDescription: [
+      "Located in the town of Dikwella, about 15 km east of Tangalle, Wewurukannala Vihara Temple is one of Sri Lanka's most remarkable Buddhist landmarks. The temple is best known for its colossal seated Buddha statue, standing at approximately 50 meters tall, making it the largest seated Buddha statue in the country. Visitors can climb inside the statue to upper levels, where they are rewarded with close-up views of the Buddha's serene face and panoramic views of the surrounding countryside.",
+      "Dating back to the 18th century, the temple reflects Sri Lanka's rich Buddhist heritage through its murals, sculptures, and shrine rooms that depict stories from the Buddha's life and Jataka tales. A unique and thought-provoking feature is the 'Chamber of Horrors,' which illustrates moral lessons through dramatic depictions based on Buddhist teachings. Actively used as a place of worship, especially during Poya days, Wewurukannala Vihara offers visitors a powerful blend of spirituality, history, and cultural artistry, making it a meaningful stop when exploring southern Sri Lanka."
+    ],
+    distance: "16 km",
+    driveTime: "26 min",
+    directionsUrl: "https://maps.google.com/?q=Wewurukannala+Vihara+Temple+Dikwella"
+  },
+  {
+    slug: "unakuruwa-surf-point",
+    title: "Unakuruwa Surf Point",
+    subtitle: "Tangalle",
+    image: "https://images.unsplash.com/photo-1502933691298-84fc14542831?q=80&w=1770&auto=format&fit=crop",
+    heroImage: "https://images.unsplash.com/photo-1502933691298-84fc14542831?q=80&w=1770&auto=format&fit=crop",
+    description: "Enjoy consistent waves and a relaxed beach atmosphere at this popular surf destination.",
+    longDescription: [
+      "Unakuruwa Surf Point is a popular yet laid-back surf destination along Sri Lanka's southern coast, located just a 15-minute drive from Tangalle town. Known for its consistent waves and golden sandy beach, this surf spot attracts both beginner and experienced surfers looking for an exciting yet relaxed ocean experience. The scenic drive to Unakuruwa offers beautiful views of palm-lined shores and turquoise waters, making it an easy and rewarding coastal escape.",
+      "The waves at Unakuruwa are suitable for all skill levels, with local surf schools and instructors available for beginners, while more advanced surfers can enjoy point and reef breaks. Beyond surfing, visitors can relax on the beach, enjoy fresh seafood at nearby beachside cafes, and witness stunning sunsets over the Indian Ocean. Combining adventure, natural beauty, and a chilled beach atmosphere, Unakuruwa Surf Point is a must-visit spot for surf lovers and coastal explorers in Tangalle."
+    ],
+    distance: "11 km",
+    driveTime: "20 min",
+    directionsUrl: "https://maps.google.com/?q=Unakuruwa+Surf+Point+Tangalle"
+  },
+  {
+    slug: "tangalle-beach",
+    title: "Tangalle Beach",
+    subtitle: "Tangalle",
+    image: "/images/attractions/tangalleBeach.webp",
+    heroImage: "/images/attractions/tangalleBeach.webp",
+    description: "Experience authentic coastal life at Tangalle's main beach with fishing boats and stunning views.",
+    longDescription: [
+      "Tangalle Beach is the main coastal highlight of the southern town of Tangalle, offering a perfect blend of scenic ocean views, wide sandy shores, and authentic coastal life. Stretching along the Indian Ocean, the beach is known for its calm and relaxing atmosphere, making it an ideal place for visitors to unwind while enjoying the soothing rhythm of the waves and refreshing sea breeze.",
+      "One of the beach's most charming features is the presence of local fishermen and their colorful boats lining the shore, providing a glimpse into traditional coastal life and adding character to the landscape. Visitors can enjoy peaceful walks along the sand, relax by the sea, or watch stunning sunrises and sunsets that paint the sky in warm hues. With easy access from the town center and nearby beachside cafés serving local flavors, Tangalle Beach offers a serene yet lively coastal experience that captures the true essence of southern Sri Lanka."
+    ],
+    distance: "3 km",
+    driveTime: "10 min",
+    directionsUrl: "https://maps.google.com/?q=Tangalle+Beach+Sri+Lanka"
+  },
+  {
+    slug: "kalametiya-bird-sanctuary",
+    title: "Kalametiya Bird Sanctuary",
+    subtitle: "Near Tangalle",
+    image: "https://images.unsplash.com/photo-1552728089-57bdde30beb3?q=80&w=1770&auto=format&fit=crop",
+    heroImage: "https://images.unsplash.com/photo-1552728089-57bdde30beb3?q=80&w=1770&auto=format&fit=crop",
+    description: "Explore a peaceful wetland sanctuary home to diverse resident and migratory bird species.",
+    longDescription: [
+      "Kalametiya Bird Sanctuary is a peaceful nature reserve located about 15 km from Tangalle along Sri Lanka's southern coast. Spanning around 150 hectares, this sanctuary is a rich wetland ecosystem made up of lagoons, mangroves, and waterways, providing an ideal habitat for both resident and migratory bird species. Its calm surroundings and untouched landscapes make it a perfect escape for nature lovers and birdwatching enthusiasts.",
+      "The sanctuary is home to a wide variety of birds, including storks, herons, kingfishers, bee-eaters, eagles, and many waterfowl species. Early mornings and late afternoons are the best times to explore, when bird activity is at its peak and the soft light enhances the experience. Easily reachable within 30–45 minutes from Tangalle via a scenic drive through coastal villages, Kalametiya Bird Sanctuary offers a refreshing connection to nature, tranquility, and Sri Lanka's remarkable biodiversity."
+    ],
+    distance: "15 km",
+    driveTime: "32 min",
+    directionsUrl: "https://maps.google.com/?q=Kalametiya+Bird+Sanctuary+Sri+Lanka"
+  },
+  {
+    slug: "yala-national-park",
+    title: "Yala National Park",
+    subtitle: "Near Tangalle",
+    image: "https://images.unsplash.com/photo-1534188753412-5de5c2e15d49?q=80&w=1770&auto=format&fit=crop",
+    heroImage: "https://images.unsplash.com/photo-1534188753412-5de5c2e15d49?q=80&w=1770&auto=format&fit=crop",
+    description: "Embark on an unforgettable safari with elephants, leopards, and diverse wildlife at Yala.",
+    longDescription: [
+      "Yala National Park is one of Sri Lanka's most famous wildlife destinations, offering an unforgettable safari experience within reach of Tangalle. Located approximately 70 km northeast of Tangalle, the park can be reached in about 2 to 2.5 hours by road, making it a popular and rewarding day trip for travelers staying along the southern coast.",
+      "Renowned for its rich biodiversity, Yala is home to elephants, leopards, sloth bears, crocodiles, deer, and a remarkable variety of birdlife. Guided jeep safaris provide the best way to explore the park's diverse landscapes, which include forests, grasslands, lagoons, and wetlands. Combining thrilling wildlife encounters with scenic beauty, Yala National Park offers a powerful contrast to Tangalle's beaches and is a must-visit destination for nature and adventure lovers exploring southern Sri Lanka."
+    ],
+    distance: "114 km",
+    driveTime: "2 hr 10 min",
+    directionsUrl: "https://maps.google.com/?q=Yala+National+Park+Sri+Lanka"
   }
 ];
 

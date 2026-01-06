@@ -39,6 +39,9 @@ export default async function AttractionPage({ params }: AttractionPageProps) {
         subtitle={attraction.subtitle}
         longDescription={attraction.longDescription}
         image={attraction.image}
+        distance={attraction.distance}
+        driveTime={attraction.driveTime}
+        directionsUrl={attraction.directionsUrl}
       />
 
       <RelatedAttractions attractions={relatedAttractions} />

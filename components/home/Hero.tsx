@@ -93,7 +93,7 @@ export function Hero() {
                         <span className="text-teak">Villa Marbella Bliss</span>
                     </h2>
 
-                    <div className="space-y-6 text-base font-light leading-relaxed text-charcoal/70">
+                    <div className="space-y-6 text-base font-light leading-relaxed text-charcoal/70 text-justify">
                         <p>
                             Villa Marbella Bliss offers a comfortable and welcoming stay on Sri Lanka’s
                             southern coast, with a focus on privacy, convenience, and relaxed

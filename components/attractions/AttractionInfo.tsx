@@ -6,9 +6,12 @@ interface AttractionInfoProps {
   subtitle: string;
   longDescription: string[];
   image?: string;
+  distance: string;
+  driveTime: string;
+  directionsUrl: string;
 }
 
-export function AttractionInfo({ title, subtitle, longDescription, image }: AttractionInfoProps) {
+export function AttractionInfo({ title, subtitle, longDescription, image, distance, driveTime, directionsUrl }: AttractionInfoProps) {
   return (
     <Section className="bg-ivory">
       <Container>
@@ -48,14 +51,19 @@ export function AttractionInfo({ title, subtitle, longDescription, image }: Attr
             {/* Info */}
             <div className="flex flex-col justify-center">
               <h2 className="font-serif text-3xl md:text-4xl font-normal mb-6 text-charcoal uppercase tracking-wide">
-                {title} Conservation Project
+                {title}
               </h2>
               <p className="text-charcoal/70 text-lg mb-6 uppercase tracking-wider">
-                114km 2hr Ride
+                {distance} • {driveTime}
               </p>
-              <button className="text-charcoal font-semibold text-sm uppercase tracking-wider border-b-2 border-charcoal pb-1 hover:text-gold hover:border-gold transition-colors w-fit cursor-pointer">
+              <a 
+                href={directionsUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-charcoal font-semibold text-sm uppercase tracking-wider border-b-2 border-charcoal pb-1 hover:text-gold hover:border-gold transition-colors w-fit cursor-pointer"
+              >
                 Get Directions
-              </button>
+              </a>
             </div>
           </div>
         )}

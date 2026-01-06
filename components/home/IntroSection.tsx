@@ -19,7 +19,7 @@ export function IntroSection() {
                 <div className="grid grid-cols-1 gap-12 lg:grid-cols-2 lg:gap-8 items-center">
                     
                     {/* Left Column: Text & Image Grid */}
-                    <div className="flex flex-col gap-12 lg:pl-50 pt-40">
+                    <div className="flex flex-col gap-12 lg:pl-55 pt-40">
                         {/* Text Content */}
                         <motion.div
                             initial={{ opacity: 0, x: -50 }}
