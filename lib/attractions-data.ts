@@ -89,14 +89,14 @@ export const attractionsData: Attraction[] = [
   },
   {
     slug: "ridiyagama-lion-safari",
-    title: "Ridiyagama Lion Safari",
+    title: "Ridiyagama Safari Park",
     subtitle: "Hambantota",
-    heroImage: "https://images.unsplash.com/photo-1534188753412-5de5c2e15d49?q=80&w=1770&auto=format&fit=crop",
-    image: "https://images.unsplash.com/photo-1534188753412-5de5c2e15d49?q=80&w=1770&auto=format&fit=crop",
+    heroImage: "/images/attractions/RidigamaPark.jpg",
+    image: "/images/attractions/RidigamaPark1.jpg",
     description: "Experience an exciting safari with lions, elephants, and wildlife in a natural eco-friendly sanctuary.",
     longDescription: [
-      "Located near Hambantota in Sri Lanka's southern province, Ridiyagama Lion Safari is a unique wildlife park that offers an exciting and immersive safari experience. Spanning over 500 acres of lush landscapes, this eco-friendly sanctuary is dedicated to wildlife conservation and provides a natural environment where animals roam freely. Easily accessible by road, the journey to Ridiyagama itself is scenic, passing through peaceful countryside and rural charm.",
-      "The highlight of the park is the chance to observe majestic lions up close from specially designed safari vehicles, along with sightings of elephants, deer, leopards, and a wide variety of birdlife. Guided tours led by experienced rangers offer valuable insights into animal behavior and conservation efforts. Beyond the safari drive, visitors can enjoy walking trails, picnic areas, and educational exhibits, making Ridiyagama Lion Safari a perfect destination for nature lovers, families, and adventure seekers exploring southern Sri Lanka."
+      "Located near Hambantota in Sri Lanka's southern province, Ridiyagama Safari Park is a unique wildlife park that offers an exciting and immersive safari experience. Spanning over 500 acres of lush landscapes, this eco-friendly sanctuary is dedicated to wildlife conservation and provides a natural environment where animals roam freely. Easily accessible by road, the journey to Ridiyagama itself is scenic, passing through peaceful countryside and rural charm.",
+      "The highlight of the park is the chance to observe majestic lions up close from specially designed safari vehicles, along with sightings of elephants, deer, leopards, and a wide variety of birdlife. Guided tours led by experienced rangers offer valuable insights into animal behavior and conservation efforts. Beyond the safari drive, visitors can enjoy walking trails, picnic areas, and educational exhibits, making Ridiyagama Safari Park a perfect destination for nature lovers, families, and adventure seekers exploring southern Sri Lanka."
     ],
     distance: "48.1 km",
     driveTime: "56 min",
