@@ -1,3 +1,4 @@
+import { Suspense } from "react";
 import { Location } from "@/components/shared/Location";
 import { About } from "@/components/about/About";
 
@@ -30,7 +31,9 @@ export default function AttractionsPage() {
       </section>
 
       {/* Content Sections */}
-      <Attractions />
+      <Suspense fallback={<div className="min-h-screen flex items-center justify-center">Loading...</div>}>
+        <Attractions />
+      </Suspense>
 
     </main>
   );
