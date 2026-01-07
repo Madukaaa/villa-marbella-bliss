@@ -54,7 +54,7 @@ export function AttractionInfo({ title, subtitle, longDescription, image, distan
                 {title}
               </h2>
               <p className="text-charcoal/70 text-lg mb-6 uppercase tracking-wider">
-                {distance} • {driveTime}
+                {distance} • {driveTime} drive
               </p>
               <a 
                 href={directionsUrl}
