@@ -122,7 +122,7 @@ export const attractionsData: Attraction[] = [
     title: "Hiriketiya Surfing Beach",
     subtitle: "Near Tangalle",
     heroImage: "/images/attractions/hiriketiyaBeach.jpeg",
-    image: "https://images.unsplash.com/photo-1502933691298-84fc14542831?q=80&w=1770&auto=format&fit=crop",
+    image: "/images/attractions/hiriketiyaBeach1.jpeg",
     description: "Surf smooth, consistent waves in a scenic crescent-shaped bay perfect for all skill levels.",
     longDescription: [
       "Hiriketiya Surfing Beach, locally known as 'Hiri,' is one of Sri Lanka's top surf spots, located about 13 km east of Tangalle and reachable within a 20-minute drive. This scenic crescent-shaped bay is naturally protected from strong winds, creating smooth, consistent waves that are perfect for both beginners and experienced surfers.",
