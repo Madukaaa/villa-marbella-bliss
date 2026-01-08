@@ -131,7 +131,7 @@ export default function ContactPage() {
                 </div>
                 <div>
                   <h4 className="text-sm font-semibold uppercase tracking-wider text-charcoal mb-1">Location</h4>
-                  <p className="text-lg text-charcoal/70">
+                  <p className="text-lg text-teak">
                      No: 12, Medaketiya Road,<br />
                   Tangalle,<br />
                   Sri Lanka
