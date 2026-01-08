@@ -41,13 +41,13 @@ export default function FirstFloorVillaPage() {
         </section>
 
         <VillaHero
-            subtitle="Beach Villa in Marbella with Elevated Views"
+            subtitle="A Peaceful Marbella Villa with Balcony view"
             title="First Floor Villa"
             description="Our Private villa will feed your wanderlust with elevated ocean views and spacious comfort. Experience luxury living on the first floor with breathtaking panoramic views. Each room features two comfortable single beds designed for a perfect night's sleep, with modern amenities throughout."
             description2="Our First Floor Villa offers enhanced privacy and stunning views, with elegant indoor and outdoor spaces creating a seamless flow of luxury and comfort."
-            checkIn="2:00 PM"
-            checkOut="12:00 PM"
-            size="45 SQM"
+            checkIn="3:00 - 7:00 PM"
+            checkOut="7:00 - 11:00 AM"
+            size="86 SQM"
             occupancy="Max 4 Adults"
         />
         

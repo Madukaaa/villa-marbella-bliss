@@ -41,13 +41,13 @@ export default function GroundFloorVillaPage() {
         </section>
 
         <VillaHero
-            subtitle="Beach Villa in Marbella with Garden Views"
+            subtitle="Elegant Marbella Villa Overlooking Lush Gardens"
             title="Ground Floor Villa"
             description="Enjoy fabulous views of a tropical garden from the large windows that let in streams of natural light. Each room consists of two comfortable single beds that are cosy and set to give you a good night's sleep. Our Ground Floor Villas are located on the ground floor and have the best access to the pool and the beach, making them ideal for guests seeking beach villas in Marbella."
             description2="Our Ground Floor Villa has it all, with spacious indoor and outdoor showers of uninterrupted visual flow of space."
-            checkIn="2:00 PM"
-            checkOut="12:00 PM"
-            size="45 SQM"
+            checkIn="3:00 - 7:00 PM"
+            checkOut="7:00 - 11:00 AM"
+            size="130 SQM"
             occupancy="Max 4 Adults"
         />
       
