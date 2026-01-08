@@ -55,7 +55,7 @@ function StatItem({ value, suffix, label }: StatItemProps) {
 
   return (
     <div ref={itemRef} className="text-center">
-      <div className="text-4xl md:text-5xl font-serif font-bold text-gold mb-2">
+      <div className="text-4xl md:text-5xl font-sans font-bold text-gold mb-2">
         {count}{suffix}
       </div>
       <div className="text-sm md:text-base text-ivory/80 font-light tracking-wide">
