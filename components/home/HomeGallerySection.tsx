@@ -8,14 +8,14 @@ import { cn } from "@/lib/utils";
 
 const galleryImages = [
     {
-        src: "https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?q=80&w=2070&auto=format&fit=crop",
+        src: "/images/gallery/room1.jpg",
         alt: "Luxury Villa Bedroom",
         title: "Restful Nights",
         category: "Rooms",
         description: "Experience ultimate comfort in our thoughtfully designed bedrooms."
     },
     {
-        src: "https://images.unsplash.com/photo-1596394516093-501ba68a0ba6?q=80&w=2070&auto=format&fit=crop",
+        src: "/images/gallery/livingSpace1.jpg",
         alt: "Modern Living Room",
         title: "Elegant Interiors",
         category: "Living Spaces",

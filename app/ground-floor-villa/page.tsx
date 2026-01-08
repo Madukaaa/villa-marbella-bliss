@@ -7,11 +7,11 @@ import { OtherVillas } from "@/components/villa/OtherVillas";
 export default function GroundFloorVillaPage() {
   const villaImages = [
     {
-      url: "https://images.unsplash.com/photo-1631049307264-da0ec9d70304?q=80&w=1770&auto=format&fit=crop",
+      url: "/images/gallery/room1.jpg",
       alt: "Ground Floor Villa - Main View"
     },
     {
-      url: "https://images.unsplash.com/photo-1582268611958-ebfd161ef9cf?q=80&w=1770&auto=format&fit=crop",
+      url: "/images/gallery/room5.jpg",
       alt: "Ground Floor Villa - Bedroom"
     },
     {

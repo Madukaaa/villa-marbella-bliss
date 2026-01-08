@@ -7,15 +7,15 @@ import { useState, useEffect } from "react";
 
 const images = [
     {
-        src: "https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?q=80&w=2070&auto=format&fit=crop",
+        src: "/images/gallery/room1.jpg",
         category: "Rooms"
     },
     {
-        src: "https://images.unsplash.com/photo-1566073771259-6a8506099945?q=80&w=2070&auto=format&fit=crop",
+        src: "/images/gallery/livingSpace1.jpg",
         category: "Living Spaces"
     },
     {
-        src: "https://images.unsplash.com/photo-1596394516093-501ba68a0ba6?q=80&w=2070&auto=format&fit=crop",
+        src: "/images/gallery/room3.jpg",
         category: "Rooms"
     },
     {
@@ -23,8 +23,12 @@ const images = [
         category: "Dining"
     },
     {
-        src: "https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?q=80&w=2070&auto=format&fit=crop",
+        src: "/images/gallery/livingSpace2.jpg",
         category: "Living Spaces"
+    },
+    {
+        src: "/images/gallery/room5.jpg",
+        category: "Rooms"
     },
     {
         src: "https://images.unsplash.com/photo-1596394516093-501ba68a0ba6?q=80&w=2070&auto=format&fit=crop",
@@ -41,6 +45,10 @@ const images = [
     {
         src: "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?q=80&w=2070&auto=format&fit=crop",
         category: "Exterior"
+    },
+    {
+        src: "/images/gallery/room2.jpg",
+        category: "Rooms"
     },
 ];
 

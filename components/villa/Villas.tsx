@@ -9,7 +9,7 @@ export function Villas() {
       id: 1,
       title: "Ground Floor Villa",
       description: "Ground Floor Villa at Villa Marbella Bliss offers tropical living at its best with direct access to the garden and pool.",
-      image: "https://images.unsplash.com/photo-1631049307264-da0ec9d70304?q=80&w=1770&auto=format&fit=crop",
+      image: "/images/gallery/room1.jpg",
       size: "45 SQM",
       occupancy: "Max 4 Adults",
       link: "/ground-floor-villa"
@@ -18,7 +18,7 @@ export function Villas() {
       id: 2,
       title: "First Floor Villa",
       description: "Our Private villa will feed your wanderlust with elevated views and spacious comfort.",
-      image: "https://images.unsplash.com/photo-1631049421450-348ccd7f8949?q=80&w=1770&auto=format&fit=crop",
+      image: "/images/gallery/room3.jpg",
       size: "45 SQM",
       occupancy: "Max 4 Adults",
       link: "/first-floor-villa"

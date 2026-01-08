@@ -7,11 +7,11 @@ import { OtherVillas } from "@/components/villa/OtherVillas";
 export default function FirstFloorVillaPage() {
   const villaImages = [
     {
-      url: "https://images.unsplash.com/photo-1631049421450-348ccd7f8949?q=80&w=1770&auto=format&fit=crop",
+      url: "/images/gallery/room3.jpg",
       alt: "First Floor Villa - Main View"
     },
     {
-      url: "https://images.unsplash.com/photo-1611892440504-42a792e24d32?q=80&w=1770&auto=format&fit=crop",
+      url: "/images/gallery/room2.jpg",
       alt: "First Floor Villa - Bedroom"
     },
     {

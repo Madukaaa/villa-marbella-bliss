@@ -21,14 +21,14 @@ export function OtherVillas({ currentVillaId }: OtherVillasProps) {
       id: "ground-floor",
       title: "Ground Floor Villa",
       description: "Our Private villa will feed your wanderlust with the garden views.",
-      image: "https://images.unsplash.com/photo-1631049307264-da0ec9d70304?q=80&w=1770&auto=format&fit=crop",
+      image: "/images/gallery/room1.jpg",
       link: "/ground-floor-villa"
     },
     {
       id: "first-floor",
       title: "First Floor Villa",
       description: "Escape to our corner of paradise in Marbella.",
-      image: "https://images.unsplash.com/photo-1631049421450-348ccd7f8949?q=80&w=1770&auto=format&fit=crop",
+      image: "/images/gallery/room3.jpg",
       link: "/first-floor-villa"
     }
   ];
