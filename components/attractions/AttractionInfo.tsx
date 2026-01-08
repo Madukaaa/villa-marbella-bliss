@@ -13,7 +13,7 @@ interface AttractionInfoProps {
 
 export function AttractionInfo({ title, subtitle, longDescription, image, distance, driveTime, directionsUrl }: AttractionInfoProps) {
   return (
-    <Section className="bg-ivory">
+    <Section className="bg-ivory pb-10 md:pb-32">
       <Container>
         {/* Title and Description with Vertical Line */}
         <div className="relative px-6 md:pl-40 md:pr-10 mb-12">
