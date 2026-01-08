@@ -12,7 +12,7 @@ export function RelatedAttractions({ attractions }: RelatedAttractionsProps) {
     <Section className="bg-white px-6 md:pl-40 md:pr-10">
       <Container>
         {/* Header */}
-        <div className="mb-12 flex items-center justify-between">
+        <div className="mb-12 flex flex-col items-start md:flex-row md:items-center justify-between gap-6 md:gap-0">
           <h2 className="font-serif text-3xl md:text-4xl font-normal text-charcoal uppercase tracking-wider">
             Reveal the Collection Experiences
           </h2>
