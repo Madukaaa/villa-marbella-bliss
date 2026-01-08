@@ -105,6 +105,27 @@ export function Hero() {
                             travelers.
                         </p>
                     </div>
+
+                    {/* Why Us List - Mobile Only */}
+                    <div className="block lg:hidden mt-12 mb-8">
+                        <h3 className="mb-6 text-sm font-bold uppercase tracking-[0.2em] text-charcoal">
+                            Why Villa Marbella
+                        </h3>
+                        <ul className="space-y-6 text-sm text-charcoal/70 font-medium">
+                            <li className="flex flex-col gap-1">
+                                <span className="text-charcoal font-semibold">Beachfront Location</span>
+                                <span className="text-xs text-charcoal/50">Walking distance to Tangalle Beach</span>
+                            </li>
+                            <li className="flex flex-col gap-1">
+                                <span className="text-charcoal font-semibold">Fully Equipped Kitchen</span>
+                                <span className="text-xs text-charcoal/50">Modern appliances for self-catering</span>
+                            </li>
+                            <li className="flex flex-col gap-1">
+                                <span className="text-charcoal font-semibold">Private Bathrooms</span>
+                                <span className="text-xs text-charcoal/50">Modern amenities & comfort</span>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
             </div>
 

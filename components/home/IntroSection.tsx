@@ -5,7 +5,7 @@ import Image from "next/image";
 
 export function IntroSection() {
     return (
-        <section className="relative px-8 pt-8 pb-20 lg:px-16 lg:pt-12 lg:pb-32 overflow-hidden">
+        <section className="relative px-4 pt-0 pb-4 lg:px-16 lg:pt-12 lg:pb-32 overflow-hidden">
             <div className="absolute inset-0 -z-10">
                 <Image
                     src="/Background1.jpg"
@@ -16,17 +16,17 @@ export function IntroSection() {
                 <div className="absolute inset-0 bg-white/65" />
             </div>
             <div className="container mx-auto relative z-10">
-                <div className="grid grid-cols-1 gap-12 lg:grid-cols-2 lg:gap-8 items-center">
+                <div className="grid grid-cols-1 gap-8 lg:grid-cols-2 lg:gap-8 items-center">
                     
                     {/* Left Column: Text & Image Grid */}
-                    <div className="flex flex-col gap-12 lg:pl-55 pt-40">
+                    <div className="flex flex-col gap-6 lg:pl-55 pt-0 lg:pt-40">
                         {/* Text Content */}
                         <motion.div
                             initial={{ opacity: 0, x: -50 }}
                             whileInView={{ opacity: 1, x: 0 }}
                             viewport={{ once: true }}
                             transition={{ duration: 0.8 }}
-                            className="flex flex-col gap-8 text-left"
+                            className="flex flex-col gap-4 text-left"
                         >
                             <div className="space-y-4">
                                 <span className="text-xs font-bold uppercase tracking-[0.2em] text-teak">
@@ -38,7 +38,7 @@ export function IntroSection() {
                                 </h2>
                             </div>
 
-                            <div className="space-y-4 text-base font-light leading-relaxed text-charcoal max-w-xl text-justify pr-20">
+                            <div className="space-y-4 text-base font-light leading-relaxed text-charcoal max-w-xl text-justify pr-0 lg:pr-20">
                                 <p>
                                     Get a glimpse of our distinctive abodes, enchanting locations and
                                     unique highlights that will make your stay with us truly
