@@ -95,7 +95,7 @@ export function Attractions() {
               </Link>
 
               {/* Description */}
-              <p className="text-charcoal/80 mb-4 leading-relaxed">
+              <p className="text-charcoal mb-4 leading-relaxed">
                 {attraction.description}
               </p>
 

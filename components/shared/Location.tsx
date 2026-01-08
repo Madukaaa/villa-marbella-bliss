@@ -15,7 +15,7 @@ export function Location() {
                         Where Golden <br />
                         <span className="italic text-leaf">shores meet serenity.</span>
                     </h2>
-                    <div className="space-y-6 text-lg font-light leading-relaxed text-charcoal/80 mb-8 text-justify">
+                    <div className="space-y-6 text-lg font-light leading-relaxed text-charcoal mb-8 text-justify">
                         <p>
                             Nestled along the tranquil southern coastline of Sri Lanka, Villa Marbella
                             Bliss offers a peaceful escape by the sea. Surrounded by quiet beaches,

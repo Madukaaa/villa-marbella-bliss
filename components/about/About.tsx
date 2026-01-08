@@ -15,7 +15,7 @@ export function About() {
                         An Elegant <br />
                         <span className="italic text-leaf">coastal retreat.</span>
                     </h2>
-                    <div className="space-y-6 text-lg font-light leading-relaxed text-charcoal/80 text-justify">
+                    <div className="space-y-6 text-lg font-light leading-relaxed text-charcoal text-justify">
                         <p>
                             Villa Marbella Bliss is a thoughtfully designed private villa in Tangalle,
                             offering garden views, peaceful surroundings, and a relaxed coastal
