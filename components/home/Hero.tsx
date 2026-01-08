@@ -18,7 +18,7 @@ export function Hero() {
         <div className="relative min-h-screen w-full lg:grid lg:grid-cols-[19%_52%_29%]">
 
             {/* Left Column: Branding & USPs */}
-            <div className="flex flex-col justify-between bg-white px-8 py-12 lg:px-8 lg:py-16">
+            <div className="hidden lg:flex flex-col justify-between bg-white px-8 py-12 lg:px-8 lg:py-16">
                 {/* Logo Area */}
                 <div className="mb-12">
                     {/* Replicating the 'Reveal' circle logo style roughly with an icon for now */}
@@ -55,7 +55,7 @@ export function Hero() {
             </div>
 
             {/* Center Column: Immersive Image */}
-            <div className="relative min-h-[50vh] w-full bg-charcoal lg:min-h-screen">
+            <div className="relative min-h-[50vh] w-full bg-charcoal lg:min-h-screen mt-15 lg:mt-0">
                 <div
                     className="absolute inset-0 bg-cover bg-center opacity-90 transition-transform duration-1000 hover:scale-105"
                     style={{
@@ -70,7 +70,7 @@ export function Hero() {
             <div className="flex flex-col justify-between bg-white px-8 py-12 lg:px-16 lg:py-16">
 
                 {/* Top Nav (Replaces global header functionality for this view) */}
-                <div className="mb-12 flex items-center justify-between border-b border-charcoal/10 pb-6">
+                <div className="mb-12 hidden lg:flex items-center justify-between border-b border-charcoal/10 pb-6">
                     <div 
                         className="flex items-center gap-2 cursor-pointer group"
                         onClick={() => setIsMenuOpen(true)}
