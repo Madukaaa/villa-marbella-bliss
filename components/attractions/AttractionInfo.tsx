@@ -16,10 +16,10 @@ export function AttractionInfo({ title, subtitle, longDescription, image, distan
     <Section className="bg-ivory">
       <Container>
         {/* Title and Description with Vertical Line */}
-        <div className="relative pl-40 pr-10 mb-12">
+        <div className="relative px-6 md:pl-40 md:pr-10 mb-12">
           {/* Vertical Line */}
-          <div className="absolute left-10 top-0 bottom-0 w-[2px] top-0 h-1/2 bg-charcoal/50" />
-          <div className="absolute left-10 top-0 bottom-0 w-[2px] top-1/2 h-1/2 bg-charcoal/20" />
+          <div className="absolute left-10 top-0 bottom-0 top-0 h-1/2 bg-charcoal/50 hidden md:block" />
+          <div className="absolute left-10 top-0 bottom-0 top-1/2 h-1/2 bg-charcoal/20 hidden md:block" />
           
           {/* Title Section */}
           <h1 className="font-serif text-4xl md:text-5xl font-normal mb-12 text-charcoal uppercase tracking-wide">
@@ -38,7 +38,7 @@ export function AttractionInfo({ title, subtitle, longDescription, image, distan
 
         {/* Image and Info Section */}
         {image && (
-          <div className="mt-16 grid grid-cols-1 md:grid-cols-2 gap-8 items-center px-40">
+          <div className="mt-16 grid grid-cols-1 md:grid-cols-2 gap-8 items-center px-6 md:px-40">
             {/* Image */}
             <div className="relative aspect-square overflow-hidden">
               <img

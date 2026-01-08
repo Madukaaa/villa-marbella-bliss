@@ -9,7 +9,7 @@ interface RelatedAttractionsProps {
 
 export function RelatedAttractions({ attractions }: RelatedAttractionsProps) {
   return (
-    <Section className="bg-white pl-40 pr-10">
+    <Section className="bg-white px-6 md:pl-40 md:pr-10">
       <Container>
         {/* Header */}
         <div className="mb-12 flex items-center justify-between">

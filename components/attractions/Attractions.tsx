@@ -55,9 +55,9 @@ export function Attractions() {
     <Section className="bg-white">
       <Container>
         {/* Header */}
-        <div className="mb-16 relative pl-40 pr-10">
+        <div className="mb-16 relative px-6 md:pl-40 md:pr-10">
             {/* Vertical Line */}
-            <div className="absolute left-10 top-0 bottom-0 w-[2px] bg-charcoal/70" />
+            <div className="absolute left-10 top-0 bottom-0 w-[2px] bg-charcoal/70 hidden md:block" />
                 
             <span className="mb-4 block text-sm font-semibold uppercase tracking-widest text-charcoal/60">
                Discover the Beauty Around Marbella Bliss
@@ -74,7 +74,7 @@ export function Attractions() {
             </p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 pl-10 pr-10">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 px-6 md:pl-10 md:pr-10">
           {currentAttractions.map((attraction, index) => (
             <div key={index} className="group">
               {/* Image Container */}
@@ -111,7 +111,7 @@ export function Attractions() {
 
         {/* Pagination Controls */}
         {totalPages > 1 && (
-          <div className="mt-16 flex items-center justify-center gap-4 pl-10 pr-10">
+          <div className="mt-16 flex items-center justify-center gap-4 px-6 md:pl-10 md:pr-10">
             {/* Previous Arrow */}
             <button
               onClick={handlePrevPage}
