@@ -114,16 +114,14 @@ export function Header() {
                     <div className="relative flex flex-col justify-between p-8 lg:p-16">
                         {/* Top Section with Logo */}
                         <div>
-                            <Link href="/" onClick={() => setIsMobileMenuOpen(false)}>
-                                <div className="flex items-center gap-3">
-                                    <div className="flex h-12 w-12 items-center justify-center rounded-full border-2 border-charcoal text-charcoal">
-                                        <span className="font-serif text-xl font-bold">V</span>
-                                    </div>
-                                    <h1 className="font-serif text-2xl font-bold tracking-widest uppercase text-charcoal">
-                                        Marbella <br /> Bliss
-                                    </h1>
+                            <div className="flex items-center gap-3">
+                                <div className="flex h-12 w-12 items-center justify-center rounded-full border-2 border-charcoal text-charcoal">
+                                    <span className="font-serif text-xl font-bold">V</span>
                                 </div>
-                            </Link>
+                                <h1 className="font-serif text-2xl font-bold tracking-widest uppercase text-charcoal">
+                                    Marbella <br /> Bliss
+                                </h1>
+                            </div>
 
                             {/* Mobile Close Button (Side-by-side with Logo) */}
                             <button
