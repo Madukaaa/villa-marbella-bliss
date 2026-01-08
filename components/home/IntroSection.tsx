@@ -38,7 +38,7 @@ export function IntroSection() {
                                 </h2>
                             </div>
 
-                            <div className="space-y-4 text-base font-light leading-relaxed text-charcoal/80 max-w-xl text-justify pr-20">
+                            <div className="space-y-4 text-base font-light leading-relaxed text-charcoal max-w-xl text-justify pr-20">
                                 <p>
                                     Get a glimpse of our distinctive abodes, enchanting locations and
                                     unique highlights that will make your stay with us truly
