@@ -59,7 +59,7 @@ export function Hero() {
                 <div
                     className="absolute inset-0 bg-cover bg-center opacity-90 transition-transform duration-1000 hover:scale-105"
                     style={{
-                        backgroundImage:"url('/images/home/villa.jpg')",
+                        backgroundImage:"url('/images/home/villa.JPG')",
                     }}
                 />
                 <div className="absolute inset-0 bg-gradient-to-b from-transparent to-black/20" />
