@@ -24,7 +24,7 @@ export default function AboutPage() {
             About Villa <br />
             <span className="italic text-gold">Marbella Bliss</span>
           </h1>
-          <p className="text-xl text-ivory/80 max-w-2xl mx-auto font-light">
+          <p className="text-xl text-ivory max-w-2xl mx-auto font-light">
             A sanctuary where tropical luxury meets Sri Lankan charm
           </p>
         </Container>

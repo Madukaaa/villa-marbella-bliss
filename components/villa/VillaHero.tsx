@@ -39,11 +39,11 @@ export function VillaHero({
             </h1>
             
             <div className="space-y-6 mb-12">
-              <p className="text-lg text-charcoal/70 leading-relaxed">
+              <p className="text-lg text-charcoal font-light leading-relaxed">
                 {description}
               </p>
               {description2 && (
-                <p className="text-lg text-charcoal/70 leading-relaxed">
+                <p className="text-lg text-charcoal font-light leading-relaxed">
                   {description2}
                 </p>
               )}

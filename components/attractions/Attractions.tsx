@@ -65,7 +65,7 @@ export function Attractions() {
             <h2 className="font-serif text-4xl md:text-5xl font-normal mb-6 text-charcoal">
                 Nearby <span className="italic text-teak">Attractions</span>
             </h2>
-            <p className="text-lg text-charcoal/70 leading-relaxed text-justify">
+            <p className="text-lg text-charcoal font-light leading-relaxed text-justify">
                 Step beyond the comfort of Villa Marbella Bliss and explore a variety of nearby 
                 attractions waiting to be discovered. From pristine beaches and scenic viewpoints 
                 to cultural landmarks, nature trails, and local experiences, the surrounding area 

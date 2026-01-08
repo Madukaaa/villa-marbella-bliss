@@ -39,7 +39,7 @@ export function Villas() {
           <h2 className="font-serif text-4xl md:text-5xl font-normal mb-6 text-charcoal">
             Our Villas
           </h2>
-          <p className="text-lg text-charcoal/70 leading-relaxed text-justify">
+          <p className="text-lg text-charcoal font-light leading-relaxed text-justify">
             Villa Marbella Bliss offers two luxurious accommodations to choose from for your stay. 
             Stylishly furnished, the guest dwellings at our luxury private pool villa provide vacationers 
             a charmingly tranquil rest for an unforgettable tropical beach holiday, making it one of the 

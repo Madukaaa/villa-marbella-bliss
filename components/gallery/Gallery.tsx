@@ -104,7 +104,7 @@ export function Gallery() {
                     <h2 className="font-serif text-4xl md:text-5xl font-normal mb-6 text-charcoal">
                         Moments of <span className="italic text-teak">Bliss</span>
                     </h2>
-                    <p className="text-lg text-charcoal/70 leading-relaxed text-justify mb-8">
+                    <p className="text-lg text-charcoal font-light leading-relaxed text-justify mb-8">
                         Explore a curated collection of moments captured at Villa Marbella Bliss. 
                         From serene mornings by the private pool to golden sunsets and thoughtfully 
                         designed interiors, our gallery reflects the calm, luxury, and unforgettable 

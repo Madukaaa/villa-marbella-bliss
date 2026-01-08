@@ -1,6 +1,5 @@
 "use client";
 
-import { Button } from "@/components/ui/Button";
 import { AlignRight, X } from "lucide-react";
 import Link from "next/link";
 import { useState } from "react";
@@ -89,8 +88,8 @@ export function Hero() {
                     <span className="mb-6 block text-xs font-bold uppercase tracking-[0.2em] text-teak/60">
                         Experience The Collection
                     </span>
-                    <h2 className="mb-8 text-5xl font-normal leading-tight text-charcoal lg:text-6xl">
-                        <span className="text-teak">Villa Marbella Bliss</span>
+                    <h2 className="mb-8 text-5xl font-serif leading-tight text-charcoal lg:text-6xl">
+                        <span className="text-teak">Marbella Bliss</span>
                     </h2>
 
                     <div className="space-y-6 text-base font-light leading-relaxed text-charcoal text-justify">
