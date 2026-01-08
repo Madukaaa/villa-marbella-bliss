@@ -135,7 +135,7 @@ export function Header() {
                     </div>
 
                     {/* Middle Column - Navigation Links */}
-                    <div className="relative flex flex-col justify-start lg:justify-center p-8 lg:p-12 lg:border-l lg:border-charcoal/10">
+                    <div className="relative flex flex-col justify-start lg:justify-center px-8 pb-90 lg:p-12 lg:border-l lg:border-charcoal/10">
                         {/* Close Button (Desktop Only) */}
                         <button
                             onClick={() => setIsMobileMenuOpen(false)}
