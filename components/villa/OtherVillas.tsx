@@ -41,7 +41,7 @@ export function OtherVillas({ currentVillaId }: OtherVillasProps) {
   return (
     <Section className="bg-ivory">
       <Container className="px-8 md:px-16 lg:px-24">
-        <div className="pl-40 pr-10">
+        <div className="pl-0 pr-0 md:pl-40 md:pr-10">
           {/* Header */}
           <div className="flex justify-between items-center mb-12">
             <h2 className="font-serif text-3xl md:text-3xl text-charcoal">

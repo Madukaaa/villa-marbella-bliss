@@ -55,7 +55,7 @@ export function VillaGallery({ images }: VillaGalleryProps) {
     <>
       <Section className="bg-ivory !py-12 ">
         <Container className="px-8 md:px-16 lg:px-24">
-          <div className="pl-40 pr-10">
+          <div className="pl-0 pr-0 md:pl-40 md:pr-10">
             <div className="grid grid-cols-1 lg:grid-cols-3 gap-1">
               {/* Large Main Image */}
               <div 
@@ -72,7 +72,7 @@ export function VillaGallery({ images }: VillaGalleryProps) {
               </div>
 
               {/* Grid of Smaller Images */}
-              <div className="grid grid-cols-2 grid-rows-2 gap-1 h-full">
+              <div className="grid grid-cols-2 grid-rows-2 gap-1 aspect-[4/3] lg:aspect-auto lg:h-full">
                 {gridImages.slice(0, 4).map((image, index) => (
                   <div
                     key={index}
