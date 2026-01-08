@@ -102,9 +102,9 @@ export function Gallery() {
         <Section className="bg-white" id="gallery">
             <Container>
                 {/* Header */}
-                <div className="mb-10 relative pl-40 pr-10">
+                <div className="mb-10 relative pl-0 pr-0 md:pl-40 md:pr-10">
                     {/* Vertical Line */}
-                    <div className="absolute left-10 top-0 bottom-0 w-[2px] bg-charcoal/70" />
+                    <div className="hidden md:block absolute left-10 top-0 bottom-0 w-[2px] bg-charcoal/70" />
                     
                     <span className="mb-4 block text-sm font-semibold uppercase tracking-widest text-charcoal/60">
                     A Visual Journey Through Marbella Bliss
@@ -121,7 +121,7 @@ export function Gallery() {
                 </div>
 
                 {/* Filter Buttons */}
-                <div className="flex flex-wrap gap-4 justify-start mb-12 mt-16 pl-10">
+                <div className="flex flex-wrap gap-4 justify-start mb-12 mt-16 pl-0 md:pl-10">
                     {categories.map((category) => (
                         <button
                             key={category}
@@ -138,7 +138,7 @@ export function Gallery() {
                     ))}
                 </div>
 
-                <div className="columns-1 gap-2 md:columns-2 lg:columns-3 space-y-2 pt-4 pl-10">
+                <div className="columns-1 gap-2 md:columns-2 lg:columns-3 space-y-2 pt-4 pl-0 md:pl-10">
                     {filteredImages.map((image, idx) => (
                         <div 
                             key={idx} 
