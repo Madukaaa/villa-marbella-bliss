@@ -84,7 +84,7 @@ export function HomeGallerySection() {
     }, [paginate]);
 
     return (
-        <section className="relative h-screen w-full overflow-hidden bg-charcoal">
+        <section className="relative h-[60vh] md:h-screen w-full overflow-hidden bg-charcoal">
             <AnimatePresence initial={false} custom={direction}>
                 <motion.div
                     key={currentIndex}
@@ -122,16 +122,16 @@ export function HomeGallerySection() {
             </AnimatePresence>
 
             {/* Content Overlay */}
-            <div className="absolute inset-x-0 bottom-0 p-8 md:p-16 z-20 bg-gradient-to-t from-black/90 via-black/50 to-transparent">
+            <div className="absolute inset-x-0 bottom-0 px-8 pt-8 pb-2 md:p-16 z-20 bg-gradient-to-t from-black/90 via-black/50 to-transparent">
                 <div className="container mx-auto flex flex-col md:flex-row items-end justify-between gap-6">
                     <div className="text-white max-w-2xl">
-                         <span className="block text-sm md:text-base tracking-[0.2em] uppercase mb-4 text-gold/90 font-semibold">
+                         <span className="block text-xs md:text-base tracking-[0.2em] uppercase mb-1 md:mb-4 text-gold/90 font-semibold">
                             {galleryImages[currentIndex].category}
                         </span>
-                        <h2 className="text-4xl md:text-6xl font-serif mb-4 text-white">
+                        <h2 className="text-2xl md:text-6xl font-serif mb-1 md:mb-4 text-white">
                             {galleryImages[currentIndex].title}
                         </h2>
-                        <p className="text-white/80 text-lg max-w-lg mb-8 leading-relaxed">
+                        <p className="text-white/80 text-sm md:text-lg max-w-lg mb-4 md:mb-8 leading-tight md:leading-relaxed">
                             {galleryImages[currentIndex].description}
                         </p>
                          <Link 

@@ -5,7 +5,7 @@ import Image from "next/image";
 
 export function IntroSection() {
     return (
-        <section className="relative px-4 pt-0 pb-4 lg:px-16 lg:pt-12 lg:pb-32 overflow-hidden">
+        <section className="relative px-4 pt-0 pb-30 lg:px-16 lg:pt-12 lg:pb-48 overflow-hidden">
             <div className="absolute inset-0 -z-10">
                 <Image
                     src="/Background1.jpg"

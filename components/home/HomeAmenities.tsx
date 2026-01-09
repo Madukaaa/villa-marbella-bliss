@@ -39,14 +39,14 @@ export function HomeAmenities() {
                     </h2>
                 </div>
 
-                <div className="grid grid-cols-2 gap-x-6 gap-y-12 md:grid-cols-4 md:gap-x-8 md:gap-y-16">
+                <div className="grid grid-cols-2 gap-x-4 gap-y-8 md:grid-cols-4 md:gap-x-6 md:gap-y-12">
                     {amenities.map((item, idx) => (
                         <div key={idx} className="flex flex-col items-center text-center group">
-                            <div className="mb-6 flex h-16 w-16 items-center justify-center rounded-full bg-stone/20 text-teak transition-colors group-hover:bg-teak group-hover:text-white">
-                                <item.icon size={32} strokeWidth={1.5} />
+                            <div className="mb-4 flex h-12 w-12 items-center justify-center rounded-full bg-stone/20 text-teak transition-colors group-hover:bg-teak group-hover:text-white">
+                                <item.icon size={24} strokeWidth={1.5} />
                             </div>
-                            <h3 className="mb-2 font-serif text-xl text-charcoal">{item.title}</h3>
-                            <p className="text-sm text-charcoal/60">{item.desc}</p>
+                            <h3 className="mb-2 font-serif text-lg text-charcoal">{item.title}</h3>
+                            <p className="text-xs text-charcoal/60">{item.desc}</p>
                         </div>
                     ))}
                 </div>
