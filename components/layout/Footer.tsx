@@ -80,7 +80,7 @@ export function Footer() {
               </ul>
 
               {/* BOTTOM BAR */}
-              <div className="border-t border-white/10 py-6 text-center text-xs text-white/40 tracking-wide mt-20 whitespace-nowrap">
+              <div className="border-t border-white/10 pt-6 pb-0 md:pb-6 text-center text-xs text-white/40 tracking-wide mt-20 whitespace-nowrap">
                 © {new Date().getFullYear()} Villa Marbella Bliss. All rights reserved.
               </div>
             </div>
