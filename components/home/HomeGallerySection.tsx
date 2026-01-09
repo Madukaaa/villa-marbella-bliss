@@ -29,7 +29,7 @@ const galleryImages = [
         description: "Enjoy memorable meals in our exquisite dining spaces."
     },
     {
-        src: "https://images.unsplash.com/photo-1566073771259-6a8506099945?q=80&w=2070&auto=format&fit=crop",
+        src: "/images/gallery/exterior1.jpg",
         alt: "Poolside View",
         title: "Poolside Serenity",
         category: "Exterior",
