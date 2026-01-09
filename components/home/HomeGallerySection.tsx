@@ -124,7 +124,7 @@ export function HomeGallerySection() {
             {/* Content Overlay */}
             <div className="absolute inset-x-0 bottom-0 px-8 pt-8 pb-2 md:p-16 z-20 bg-gradient-to-t from-black/90 via-black/50 to-transparent">
                 <div className="container mx-auto flex flex-col md:flex-row items-end justify-between gap-6">
-                    <div className="text-white max-w-2xl">
+                    <div className="text-white max-w-2xl text-left">
                          <span className="block text-xs md:text-base tracking-[0.2em] uppercase mb-1 md:mb-4 text-gold/90 font-semibold">
                             {galleryImages[currentIndex].category}
                         </span>
