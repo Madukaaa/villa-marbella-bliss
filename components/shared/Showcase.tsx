@@ -4,26 +4,26 @@ import { cn } from "@/lib/utils";
 
 const spaces = [
     {
-        title: "Oceanview Master Suite",
-        description: "Wake up to the sound of the waves.",
+        title: "Two-Bedroom Villa with Garden & Balcony Views",
+        description: "Spacious villa with garden and balcony or terrace views.",
         image: "https://images.unsplash.com/photo-1590490360182-c33d57733427?q=80&w=1974&auto=format&fit=crop",
         colSpan: "col-span-1 md:col-span-2",
     },
     {
-        title: "Open-Air Living Room",
-        description: "Seamless indoor-outdoor flow.",
+        title: "Bright Living & Dining Area",
+        description: "Comfortable space for relaxing and dining.",
         image: "https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?q=80&w=1974&auto=format&fit=crop",
         colSpan: "col-span-1",
     },
     {
-        title: "Private Infinity Pool",
-        description: "Your personal oasis under the sun.",
+        title: "Fully Equipped Kitchen",
+        description: "Ideal for simple home‑cooked meals.",
         image: "https://images.unsplash.com/photo-1572331165267-854da2b00cc3?q=80&w=1770&auto=format&fit=crop",
         colSpan: "col-span-1",
     },
     {
-        title: "Tropical Garden Bath",
-        description: "Immerse yourself in nature.",
+        title: "Garden Terrace & Balcony",
+        description: "Peaceful outdoor space with garden views.",
         image: "https://images.unsplash.com/photo-1584622650111-993a426fbf0a?q=80&w=1770&auto=format&fit=crop",
         colSpan: "col-span-1 md:col-span-2",
     },
@@ -34,7 +34,7 @@ export function Showcase() {
         <Section className="bg-stone/20" id="living">
             <Container>
                 <div className="mb-16 text-center">
-                    <span className="mb-3 block text-sm font-medium uppercase tracking-widest text-teak/80">
+                    <span className="mb-3 block text-sm font-semibold uppercase tracking-widest text-teak/80">
                         Living Spaces
                     </span>
                     <h2 className="font-serif text-4xl text-charcoal md:text-5xl">
