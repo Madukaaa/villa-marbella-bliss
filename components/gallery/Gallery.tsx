@@ -113,10 +113,10 @@ export function Gallery() {
                         Moments of <span className="italic text-teak">Bliss</span>
                     </h2>
                     <p className="text-lg text-charcoal font-light leading-relaxed text-justify mb-8">
-                        Explore a curated collection of moments captured at Villa Marbella Bliss. 
-                        From serene mornings by the private pool to golden sunsets and thoughtfully 
-                        designed interiors, our gallery reflects the calm, luxury, and unforgettable 
-                        experiences that await you during your stay.
+                        Explore a curated collection of moments captured during your stay.
+                        From peaceful mornings in the garden and balcony views to warm sunsets
+                        and thoughtfully designed interiors, our gallery reflects the calm,
+                        comfort, and memorable experiences that await you.
                     </p>
                 </div>
 

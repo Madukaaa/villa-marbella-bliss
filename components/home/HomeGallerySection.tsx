@@ -30,10 +30,10 @@ const galleryImages = [
     },
     {
         src: "/images/gallery/exterior1.jpg",
-        alt: "Poolside View",
-        title: "Poolside Serenity",
+        alt: "Villa Exterior View",
+        title: "Peaceful Villa Exterior",
         category: "Exterior",
-        description: "Bask in the sun or take a refreshing dip in our pristine private pool."
+        description: "A welcoming exterior framed by greenery and a relaxed tropical setting."
     }
 ];
 

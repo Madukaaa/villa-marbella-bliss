@@ -8,7 +8,7 @@ export function Villas() {
     {
       id: 1,
       title: "Ground Floor Villa",
-      description: "Ground Floor Villa at Villa Marbella Bliss offers tropical living at its best with direct access to the garden and pool.",
+      description: "The ground floor villa offers relaxed tropical living with direct access to the garden and a private terrace.",
       image: "/images/gallery/room1.jpg",
       size: "130 SQM",
       occupancy: "Max 4 Adults",
@@ -17,7 +17,7 @@ export function Villas() {
     {
       id: 2,
       title: "First Floor Villa",
-      description: "Our Private villa will feed your wanderlust with elevated views and spacious comfort.",
+      description: "Our private villa offers peaceful garden and balcony views with spacious, comfortable living.",
       image: "/images/gallery/room3.jpg",
       size: "86 SQM",
       occupancy: "Max 4 Adults",
@@ -34,16 +34,16 @@ export function Villas() {
           <div className="hidden md:block absolute left-10 top-0 bottom-0 w-[2px] bg-charcoal/70" />
           
           <span className="mb-4 block text-sm font-semibold uppercase tracking-widest text-charcoal/60">
-            Stay at a Private Pool Villa in Marbella
+            Stay at a Private Villa in Marbella
           </span>
           <h2 className="font-serif text-4xl md:text-5xl font-normal mb-6 text-charcoal">
             Our Villas
           </h2>
           <p className="text-lg text-charcoal font-light leading-relaxed text-justify">
-            Villa Marbella Bliss offers two luxurious accommodations to choose from for your stay. 
-            Stylishly furnished, the guest dwellings at our luxury private pool villa provide vacationers 
-            a charmingly tranquil rest for an unforgettable tropical beach holiday, making it one of the 
-            finest holiday villas in Marbella.
+            We offer two comfortable accommodation options for your stay.
+            Thoughtfully furnished and designed for relaxation, our private villas
+            provide a calm and welcoming retreat - ideal for a peaceful tropical
+            getaway near the beach.
           </p>
         </div>
 

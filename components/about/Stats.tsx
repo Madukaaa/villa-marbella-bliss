@@ -68,12 +68,12 @@ function StatItem({ value, suffix, label }: StatItemProps) {
 export function Stats() {
   const stats = [
     {
-      value: 100,
+      value: 50,
       suffix: "+",
       label: "Happy Guests",
     },
     {
-      value: 5,
+      value: 4,
       suffix: "",
       label: "Rooms",
     },
